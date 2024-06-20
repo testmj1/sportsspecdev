@@ -1,0 +1,243 @@
+== Changelog ==
+
+= 2.7.1 (February 21, 2024) =
+
+- Improvement: update German, German (Austria), German (Switzerland) and German (formal) translations
+- Fix: prevent SQL error when showing expired ads on ad overview
+
+= 2.7.0 (February 13, 2024) =
+
+- Improvement: update Slovenian translations
+- Improvement: improve Statistics Column in Ad Overview
+- Improvement: change Google Analytics event names and allow customizing them
+- Improvement: allow sorting ads by clicks, impressions, or CTR
+- Improvement: show preview of image ad in shareable statistics
+- Improvement: add the ad name into individual email report subject
+- Improvement: allow disabling tracking by user roles
+- Fix: show correct statistics for custom periods grouped by week
+
+= 2.6.0 (January 31, 2024) =
+
+- Improvement: update German, German (Austria), German (Switzerland), German (formal) and Italian translations
+- Improvement: link ads on the statistic page
+- Improvement: add a direct link to reset stats from ad edit page
+- Improvement: show real-time notices for plain text ads
+- Improvement: add custom period feature for shared reports
+
+= 2.5.2 (October 26, 2023) =
+
+- Improvement: update Greek translations
+- Fix: replace deprecated functions
+
+= 2.5.1 (September 13, 2023) =
+
+- Improvement: update Arabic and Slovenian translations
+- Improvement: remove the statistics column from the ad listing when google analytics is enabled
+- Improvement: add default values for tracking options on the ad edit page
+
+= 2.5.0 (August 30, 2023) =
+
+- Feature: use the [the_ad_clicks id="AD_ID"] shortcode to display ad clicks in the frontend
+- Improvement: update Arabic, Danish, French (France), German, German (Austria), German (Switzerland), German (formal), Greek, Italian, Polish, Slovenian, Spanish (Argentina), Spanish (Colombia), Spanish (Mexico), Spanish (Spain) and Spanish (Venezuela) translations
+- Improvement: show the statistics of the last 7 days without today's day
+- Fix: add a manual link for sharing email reports in Google Analytics
+- Fix: show default values for tracking options on the ad edit page
+- Fix: replace deprecated `intval()` and `strval()` functions  with type-casting
+- Fix: show missing expired ads in the statistics export
+- Fix: add an "aria-label" attribute to links containing an image
+- Fix: sort statistics in descending order by date on the statistics page
+
+= 2.4.6 (March 28, 2023) =
+
+- Improvement: update Arabic, German, Italian, and Slovenian translations
+- Fix: improve minor backend UI flaws
+
+= 2.4.5 (March 14, 2023) =
+
+- Improvement: prevent click tracking for preloading links through WP Rocket or instant.page
+- Fix: clone Google Analytics data object to prevent potential duplicate impression tracking
+- Fix: update database timestamp generation for first week in January
+- Fix: prevent frontend tracking not working when the URL field isn't empty
+
+= 2.4.4 (February 14, 2023) =
+
+- Improvement: match notices related to analytics tracking to the general UI
+
+= 2.4.3 (January 19, 2023) =
+
+- Fix: prevent error when deleting data on unistall
+
+= 2.4.2 (January 9, 2023) =
+
+- Fix: update incorrect timestamps for calendar week 1 in January tracking data
+
+= 2.4.1 (January 5, 2023) =
+
+- Improvement: add Slovenian translations
+- Improvement: update Danish translations
+- Improvement: implement tracking of ads served via the REST API
+- Fix: update stats export file name to include site domain
+- Fix: fix calender week if stats are rolled into the next year
+
+= 2.4.0 (November 2, 2022) =
+
+- Improvement: add Greek translations
+- Improvement: update German translations
+- Improvement: allow Google Analytics tracking into multiple properties
+- Fix: correctly remove delayed ads to prevent double tracking
+- Fix: ensure pop-up ad with AJAX cache-busting gets tracked in GA
+
+= 2.3.7 (October 21, 2022) =
+
+- Fix: hide the tracking URL options for groups, AdSense, and Google Ad Manager ads
+
+= 2.3.6 (October 6, 2022) =
+
+- Fix: correct call to undefined method on `AdvAdsTrackingUtils` object in JS
+
+= 2.3.5 (September 27, 2022) =
+
+- Improvement: update Arabic, German, and Italian translations
+- Fix: circumvent incorrect start time in ad limiting if post_date_gmt is empty
+- Fix: prevent empty linkout link on background ads
+
+= 2.3.4 (September 5, 2022) =
+
+- Fix: use the frontend prefix for tracking data attributes
+
+= 2.3.3 (August 30, 2022) =
+
+- Improvement: update Danish and Spanish (Argentinia, Colombia, Mexico, Spain, Venezuela) translations
+- Fix: enable click tracking for Amazon native ads
+- Fix: prevent empty timestamp for database time in WordPress < 5.3.0
+
+= 2.3.2 (August 9, 2022) =
+
+* Improvement: update German and Arabic translations
+* Fix: prevent division by zero on shareable statistics page
+* Fix: change the condition to check for Ad Server placement to correctly track impressions served via Ad Server
+* Fix: resolve not saving "From:" e-mail address in settings
+* Fix: create email report cron even if there are no recipients set in general options
+* Fix: only try to uninstall the AJAX drop-in when in wp-admin
+
+= 2.3.1 (April 28, 2022) =
+
+* Fix: will prevent corrupted tracking records to appear on certain web server configuration
+* Fix: prevent syntax error in autoloading caused by Composer 2.3.0
+
+= 2.3.0 =
+
+* Improvement: modernize statistics page and graph optics
+* Improvement: update Arabic, Danish and German translations
+
+= 2.2.0 =
+
+* Improvement: introduce filters `advanced-ads-tracking-ajax-dropin-path` and `advanced-ads-tracking-ajax-dropin-url` to allow changing the location of the ajax-handler drop-in file
+* Fix: correct event name `advanced_ads_decode_inserted_ads` while handling events from Advanced Ads Pro
+
+= 2.1.3 =
+
+* Improvement: add Arabic translation
+* Fix: undefined variable wpdb on multisite installation when network deactivating the plugin
+
+= 2.1.2 =
+
+* Fix: correct limiter not counting impressions if no click limit had been set
+
+= 2.1.1 =
+
+* Improvement: reduce database queries for limited ads if hourly limit has already been reached
+* Fix: correct loading of jQuery UI on database operation page
+* Fix: make sure click/impression limit can never have a negative value
+* Fix: correct display metrics on ad list page when tracking or parts of it are disabled
+* Fix: redirect links aren't getting tracked with Google Analytics on plain text ads
+* Fix: redirect links were always cloaked independent of UI settings
+* Fix: improve handling and tracking inconsistencies of pop-up and layer placements with cache-busting and delays
+* Fix: only send one more individual ad email report after an ad has expired
+
+= 2.1.0 =
+
+* Feature: allow tracking for the Google Ad Manager ad type
+* Improvement: switch Google Analytics integration from using `analytics.js` and the measurement protocol to `gtag.js` and custom event to support GA4 measurement IDs
+* Improvement: improve compatibility with delay JavaScript functionality from plugins like WP Rocket and Complianz
+* Improvement: add unexpected output of `ajax-handler.php` to admin notice
+* Improvement: add `rel="noopener"` if an ad link is supposed to open in a new target
+* Fix: correct condition for showing/hiding cloaking checkbox on URLs
+* Fix: ensure Ad Admin can save tracking options.
+* Fix: correct undefined function in JavaScript when tracking with Google Analytics
+* Fix: show tomorrow's day for timezones with high offset in the graph on ad edit pages
+
+= 2.0.4 =
+
+* Fix: checked if `advanced-ads-pro/cache_busting` is enqueued in deciding whether to add Pro-specific tracking code, instead of merely checking if Advanced Ads Pro is active
+
+= 2.0.3 =
+
+* fix grouped ads not getting tracked in delayed placement
+
+= 2.0.2 =
+
+* add additional bots that should not trigger tracking (`FlyingPress`, `WP Rocket/preload`, `Sogou web spider`, `Seekport Crawler`, `Barkrowler`)
+* check for WP_Filesystem_Base before trying to use the filesystem
+* improve activating/deactivating debugging option and check if file writable
+* fix disabled tracking on AMP pages
+* add possible to import and export options
+* fix JS type error in click-tracking when closing an ad
+
+
+= 2.0.1 =
+
+* fix overwriting attributes set on link tag by the user
+* fix escaped placeholders in external links, process all placeholders through link redirect
+
+= 2.0.0 =
+
+Tracking 2.0 is a major release. The various fixes and improvements can lead to changes in recorded impressions and clicks. See https://wpadvancedads.com/tracking-2-0/ for more details.
+
+Major changes:
+
+- the "JavaScript (AJAX)" method was highly improved and is now called Frontend and the default method for new sites
+- the "On load" method is now called Database
+- the "After page loaded" method was removed
+- click tracking works on JavaScript-based ads and iframes
+- target URLs in custom HTML code no longer need to be defined to being tracked
+- cloak individual target URLs
+- all Tracking methods work on AMP pages without requiring the Responsive add-on
+- more bots are filtered out
+- added option for "sponsored" attribute on links
+- delayed ads, like popups, are tracked only when they displayed. Users no longer need to explicitly choose that behavior
+
+For a full description of the changes and developers who used hooks and constants to adjust Tracking, please see https://wpadvancedads.com/tracking-2-0/.
+
+= 1.21.0 =
+
+* integrate with TCF 2.0 compatible consent management platforms
+* fix parallel tracking for AJAX cache-busting
+
+= 1.20.3 =
+
+- added deprecation notice for "track after page loaded" method
+
+= 1.20.2 =
+
+* marked feature for [tracking of events on external sites](https://wpadvancedads.com/manual/tracking-external-events-and-affiliate-clicks/) as deprecated
+* moved certain settings to an Advanced section on the Tracking settings page
+* fixes tracking of impressions in the wrong database table when an ad is used from another site in a multisite network
+
+= 1.20.1 =
+
+* fixed potential theme conflict. Please update to the latest Advanced Ads version as well
+* fixed missing index issue
+
+= 1.20 =
+
+* fixed CTR on ad overview list
+* fixed ad stats being summed up as "Deleted ads" on the Stats page if they are from another language as set up in the WPML plugin
+
+= 1.19 =
+
+* added option to track ads that have a trigger only when they show up (applies to users of the Sticky Ads and PopUp add-ons)
+* prevent browsers from caching the click-tracking redirect
+* decrease height of ad stats graph
+* show click-through-rate on ad overview page
+* fixed bug with Google Analytics tracking + Cache Busting + Lazy Load not tracking reliably

@@ -1,0 +1,63 @@
+[01-May-2024 18:10:13 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/plugins/advanced-ads-tracking/public/views/email-report-body.php:98
+Stack trace:
+#0 /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/plugins/advanced-ads-tracking/classes/util.php(704): include()
+#1 /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/plugins/advanced-ads-tracking/classes/util.php(778): Advanced_Ads_Tracking_Util->get_email_report_content(Array)
+#2 /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/plugins/advanced-ads-tracking/public/public.php(1465): Advanced_Ads_Tracking_Util->send_individual_ad_report(Array)
+#3 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php(324): Advanced_Ads_Tracking->individual_email_report()
+#4 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#6 /Users/angie/Local Sites/sports-spectrum/app/public/wp-cron.php(191): do_action_ref_array('advanced_ads_da...', Array)
+#7 {main}
+  thrown in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/plugins/advanced-ads-tracking/public/views/email-report-body.php on line 98
+[01-May-2024 18:11:06 UTC] PHP Warning:  Undefined array key "custom_header_bg_gradient" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 38
+[01-May-2024 18:11:06 UTC] PHP Warning:  Undefined array key "custom_header_bg" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 39
+[01-May-2024 18:11:06 UTC] PHP Warning:  Undefined array key "lear_more_buttons_color" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 56
+[01-May-2024 18:11:06 UTC] PHP Warning:  Undefined array key "new_window" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/functions.php on line 1207
+[01-May-2024 18:11:07 UTC] PHP Warning:  Undefined array key "custom_header_bg_gradient" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 38
+[01-May-2024 18:11:07 UTC] PHP Warning:  Undefined array key "custom_header_bg" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 39
+[01-May-2024 18:11:07 UTC] PHP Warning:  Undefined array key "lear_more_buttons_color" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 56
+[01-May-2024 18:11:07 UTC] PHP Warning:  Undefined array key "custom_header_bg_gradient" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 38
+[01-May-2024 18:11:07 UTC] PHP Warning:  Undefined array key "custom_header_bg" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 39
+[01-May-2024 18:11:07 UTC] PHP Warning:  Undefined array key "lear_more_buttons_color" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 56
+[01-May-2024 18:13:53 UTC] PHP Warning:  Undefined array key "custom_header_bg_gradient" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 38
+[01-May-2024 18:13:53 UTC] PHP Warning:  Undefined array key "custom_header_bg" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 39
+[01-May-2024 18:13:53 UTC] PHP Warning:  Undefined array key "lear_more_buttons_color" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 56
+[01-May-2024 18:13:53 UTC] PHP Warning:  Undefined array key "new_window" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/functions.php on line 1207
+[01-May-2024 19:28:41 UTC] PHP Warning:  Undefined array key "custom_header_bg_gradient" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 38
+[01-May-2024 19:28:41 UTC] PHP Warning:  Undefined array key "custom_header_bg" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 39
+[01-May-2024 19:28:41 UTC] PHP Warning:  Undefined array key "lear_more_buttons_color" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 56
+[01-May-2024 19:31:19 UTC] PHP Warning:  Undefined array key "custom_header_bg_gradient" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 38
+[01-May-2024 19:31:19 UTC] PHP Warning:  Undefined array key "custom_header_bg" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 39
+[01-May-2024 19:31:19 UTC] PHP Warning:  Undefined array key "lear_more_buttons_color" in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/PAO19/header.php on line 56
+[02-May-2024 10:09:29 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1714642800]}
+[02-May-2024 12:02:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_enqueue_styles" not found or invalid function name in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/general-template.php(3052): do_action('wp_head')
+#7 /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/newspectrum/front-page.php(14): wp_head()
+#8 /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/template-loader.php(106): include('/Users/angie/Lo...')
+#9 /Users/angie/Local Sites/sports-spectrum/app/public/wp-blog-header.php(19): require_once('/Users/angie/Lo...')
+#10 /Users/angie/Local Sites/sports-spectrum/app/public/index.php(17): require('/Users/angie/Lo...')
+#11 {main}
+  thrown in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-hook.php on line 324
+[07-May-2024 13:17:21 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1714760400]}
+[07-May-2024 13:17:23 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1715019600]}
+[09-May-2024 21:22:05 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/angie/Local Sites/sports-spectrum/app/public/wp-admin/includes/plugin-install.php on line 183
+[13-May-2024 14:59:35 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1715538000]}
+[20-May-2024 13:53:32 UTC] Cron unschedule event error for hook: wordfence_start_scheduled_scan, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":false,"args":[1716032400]}
+[20-May-2024 22:08:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/update.php on line 211
+[20-May-2024 22:08:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/update.php on line 449
+[20-May-2024 22:08:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/update.php on line 730
+[21-May-2024 14:20:04 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/script-loader.php on line 2641
+[21-May-2024 14:20:04 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/script-loader.php on line 2641
+[21-May-2024 14:20:04 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[21-May-2024 15:08:05 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/newspectrum/page.php on line 11
+[21-May-2024 15:20:36 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/newspectrum/page.php on line 11
+[22-May-2024 00:11:34 UTC] PHP Fatal error:  Cannot redeclare add_menu_classes() (previously declared in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/themes/newspectrum/functions.php:26) in /Users/angie/Local Sites/sports-spectrum/app/public/wp-admin/includes/menu.php on line 223
+[23-May-2024 14:09:06 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/angie/Local Sites/sports-spectrum/app/public/wp-includes/update.php on line 449
+[23-May-2024 14:09:06 UTC] PHP Notice:  unserialize(): Error at offset 0 of 22912 bytes in /Users/angie/Local Sites/sports-spectrum/app/public/wp-content/plugins/leadpages/App/Lib/Update.php on line 77

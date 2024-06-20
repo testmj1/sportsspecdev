@@ -1,0 +1,23 @@
+﻿#wfasbl_form_div, #wfasbl_form2_div  {
+    padding: 20px 0;
+}
+#wfasbl_form_div .primaryAction,
+#wfasbl_form2_div .primaryAction ,
+.wForm .primaryAction {
+    color: #000;
+}
+body #wfasbl_form2_div #tfa_2230,
+body #wfasbl_form2_div #tfa_2229,
+body .page_content #tfa_2230,
+body .page_content #tfa_2229 {
+    width: auto !important;
+}
+body #wfasbl_form_div #tfa_2236,
+body .page_content #tfa_2236 {
+    width: auto !important;
+}
+/*
+#wfasbl_form_div label,
+.wForm label{
+    color: #000;
+}*/

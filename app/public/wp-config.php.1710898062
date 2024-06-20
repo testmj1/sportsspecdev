@@ -1,0 +1,127 @@
+<?php
+# Database Configuration
+define( 'DB_NAME', 'wp_sportsspctrm' );
+define( 'DB_USER', 'sportsspctrm' );
+define( 'DB_PASSWORD', 'nViswtBiq8W0YvAadNHm' );
+define( 'DB_HOST', '127.0.0.1:3306' );
+define( 'DB_HOST_SLAVE', '127.0.0.1:3306' );
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', 'utf8_unicode_ci');
+$table_prefix = 'wp_';
+
+# Security Salts, Keys, Etc
+define('AUTH_KEY',         'P*2-@5fSa~r7dHN0^6;=;EKY`$b,id;a=?+Ai#~^aaRw.H+(idAQZ;!.dma$uBrz');
+define('SECURE_AUTH_KEY',  'ZY=UxCGw`z<3Y%XMW>YM8gO5pZZi0rqmL:*7N]N8~w{ndsbo;P3El%GLX9yDJ5Ri');
+define('LOGGED_IN_KEY',    ':6y[D*L[q9l9,WaJH%z5bGYYWs*~<Jj9&$2zhx7d(t}(OJr+|RotwL3kYl,h[XOg');
+define('NONCE_KEY',        'lEPus&tWBRu:bg|#`hgK?hz&Pv^! qMVPw=hXHRd[CM[S5x8iJwRCU415?A!V:l%');
+define('AUTH_SALT',        '*-$:JxKL7.#*[_`oGMOU}.hj?K0UtKG().L0bBEw`$0;h;I{96Mo38#ZGhvsq,0Y');
+define('SECURE_AUTH_SALT', '/)|+S=!6+&{_V-T}}-H<ryKWnJM|QfmtW+Qj7g5u6[wrq)16xh kk;1/5d)lmGmB');
+define('LOGGED_IN_SALT',   'MRxWBJlt-+ux`CYoQJy|Bl#+Cawn<+Ad.B=%<,K[/uU,I|f!zv>yf4Xw~+9v+bgU');
+define('NONCE_SALT',       'elE{@?+C$tANI@E}<N`e=@r]w@3Y2vp.Jw<z?zEc_Xbsr&kEG4po1,  ;8ifSrei');
+
+
+# Localized Language Stuff
+
+define( 'WP_CACHE', TRUE );
+
+define( 'WP_AUTO_UPDATE_CORE', false );
+
+define( 'PWP_NAME', 'sportsspctrm' );
+
+define( 'FS_METHOD', 'direct' );
+
+define( 'FS_CHMOD_DIR', 0775 );
+
+define( 'FS_CHMOD_FILE', 0664 );
+
+define( 'WPE_APIKEY', 'cd1e557ded434bda82cbc9bb476db207d51e6570' );
+
+define( 'WPE_CLUSTER_ID', '140665' );
+
+define( 'WPE_CLUSTER_TYPE', 'pod' );
+
+define( 'WPE_ISP', true );
+
+define( 'WPE_BPOD', false );
+
+define( 'WPE_RO_FILESYSTEM', false );
+
+define( 'WPE_LARGEFS_BUCKET', 'largefs.wpengine' );
+
+define( 'WPE_SFTP_PORT', 2222 );
+
+define( 'WPE_SFTP_ENDPOINT', '' );
+
+define( 'WPE_LBMASTER_IP', '' );
+
+define( 'WPE_CDN_DISABLE_ALLOWED', true );
+
+define( 'DISALLOW_FILE_MODS', FALSE );
+
+define( 'DISALLOW_FILE_EDIT', FALSE );
+
+define( 'DISABLE_WP_CRON', true );
+
+define( 'WPE_FORCE_SSL_LOGIN', false );
+
+define( 'FORCE_SSL_LOGIN', false );
+
+/*SSLSTART*/ if ( isset($_SERVER['HTTP_X_WPE_SSL']) && $_SERVER['HTTP_X_WPE_SSL'] ) $_SERVER['HTTPS'] = 'on'; /*SSLEND*/
+
+define( 'WPE_EXTERNAL_URL', false );
+
+define( 'WP_POST_REVISIONS', FALSE );
+
+define( 'WPE_WHITELABEL', 'wpengine' );
+
+define( 'WP_TURN_OFF_ADMIN_BAR', false );
+
+define( 'WPE_BETA_TESTER', false );
+
+umask(0002);
+
+$wpe_cdn_uris=array ( );
+
+$wpe_no_cdn_uris=array ( );
+
+$wpe_content_regexs=array ( );
+
+$wpe_all_domains=array ( 0 => 'sportsspctrm.wpengine.com', 1 => 'sportsspctrm.wpenginepowered.com', 2 => 'sportsspectrum.com', 3 => 'www.sportsspectrum.com', );
+
+$wpe_varnish_servers=array ( 0 => 'pod-140665', );
+
+$wpe_special_ips=array ( 0 => '35.237.39.58', );
+
+$wpe_netdna_domains=array ( );
+
+$wpe_netdna_domains_secure=array ( );
+
+$wpe_netdna_push_domains=array ( );
+
+$wpe_domain_mappings=array ( );
+
+$memcached_servers=array ( );
+define('WPLANG','');
+
+# WP Engine ID
+
+
+# WP Engine Settings
+
+
+
+define('AS3CF_SETTINGS', serialize(array(
+    'provider' => 'aws',
+    'access-key-id' => 'AKIAI2D2CHEKYOB4BR7A',
+    'secret-access-key' => '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',
+)));
+
+define('WP_MEMORY_LIMIT', '512M');
+
+
+
+
+# That's It. Pencils down
+if ( !defined('ABSPATH') )
+	define('ABSPATH', __DIR__ . '/');
+require_once(ABSPATH . 'wp-settings.php');

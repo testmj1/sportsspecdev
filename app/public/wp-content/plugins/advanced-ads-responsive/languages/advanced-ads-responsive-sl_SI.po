@@ -1,0 +1,313 @@
+# Translation of Responsive Ads in Slovenian
+# This file is distributed under the same license as the Responsive Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-10 16:12:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sl_SI\n"
+"Project-Id-Version: Responsive Ads\n"
+
+#. %1$s is the opening link tag, %2$s is closing link tag.
+#: admin/views/list.php:8
+msgid "This feature is deprecated. Please find the removal schedule %1$shere%2$s"
+msgstr "Ta funkcija je zastarela. Prosim poišči urnik umika %1$stukaj%2$s"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: modules/amp/admin/views/adsense-size.php:6
+msgid "automatically convert to AMP"
+msgstr "avtomatično pretvori v AMP"
+
+#. Description of the plugin
+msgid "Improve ad display on mobile devices and AMP pages"
+msgstr "Izboljšaj prikaz oglasov na mobilnih naprava in straneh AMP"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:33
+msgid "on mobile"
+msgstr "na mobilnikih"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Columns"
+msgstr "Stolpci"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Rows"
+msgstr "Vrstice"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "on desktop"
+msgstr "na namizju"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:12
+msgid "manual"
+msgstr "priročnik"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:11
+msgid "Customize"
+msgstr "Prilagodi"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:7
+msgid "Layout"
+msgstr "Postavitev"
+
+#: admin/admin.php:147
+msgid "Fallback width"
+msgstr "Nadomestna širina"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/responsive-ads/"
+msgstr "https://wpadvancedads.com/add-ons/responsive-ads/"
+
+#. Name of the plugin
+msgid "Advanced Ads – Responsive Ads"
+msgstr "Advanced Ads – Responsive Ads"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:46
+msgid "Not displayed"
+msgstr "Ni prikazano"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:32
+msgid "Add rule"
+msgstr "Dodaj pravilo"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:23
+#: modules/gadsense/admin/views/ad-params-manual-css.php:29
+msgid "Hide for this size ?"
+msgstr "Skrij za to velikost?"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:20
+msgid "Default"
+msgstr "Privzeto"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:15
+msgid "hidden"
+msgstr "skrito"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:14
+msgid "ad height"
+msgstr "višina oglasa"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:13
+msgid "ad width"
+msgstr "širina oglasa"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:12
+msgid "min. browser width"
+msgstr "min. širina brskalnika"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:8
+msgid "Need help? Take a look at the <a href=\"%s\" target=\"_blank\">tutorial</a>."
+msgstr "Potrebuješ pomoč? Poglej <a href=\"%s\" target=\"_blank\">vodič</a>."
+
+#: modules/amp/admin/views/adsense-size.php:30
+msgid "no AMP plugin found"
+msgstr "ne najdem nobenega vtičnika AMP"
+
+#: modules/amp/admin/views/adsense-size.php:26
+msgid "hide"
+msgstr "skrij"
+
+#: modules/amp/admin/views/adsense-size.php:20
+msgid "use responsive width and static height of %s px"
+msgstr "uporabi odzivno širino in statično višino %s px"
+
+#: modules/amp/admin/views/adsense-size.php:13
+msgid "use dynamic size with ratio %s x %s"
+msgstr "uporabi dinamično velikost v razmerju %s x %s"
+
+#: modules/amp/admin/views/ad-params.php:36
+msgid " If supported by the ad network, this text is shown if no ad is available for the ad slot"
+msgstr "Če to podpira oglasno omrežje, je to besedilo prikazano, če ni na voljo oglasa za to oglasno mesto"
+
+#: modules/amp/admin/views/ad-params.php:33
+msgid "Fallback"
+msgstr "Nadomestilo"
+
+#: modules/amp/admin/views/ad-params.php:25
+msgid "Add attribute"
+msgstr "Dodaj atribut"
+
+#: modules/amp/admin/views/ad-params.php:7
+msgid "Value"
+msgstr "Vrednost"
+
+#: modules/amp/admin/views/ad-params.php:6
+msgid "Name"
+msgstr "Ime"
+
+#: modules/amp/admin/views/ad-params.php:1
+msgid "Attributes"
+msgstr "Atributi"
+
+#: modules/gadsense/includes/hooking.php:50
+msgid "advanced"
+msgstr "napredno"
+
+#: modules/gadsense/includes/hooking.php:49
+msgid "vertical"
+msgstr "vertikalno"
+
+#: modules/gadsense/includes/hooking.php:48
+msgid "rectangle"
+msgstr "kvadrat"
+
+#: modules/gadsense/includes/hooking.php:47
+msgid "horizontal"
+msgstr "horizontalno"
+
+#: modules/gadsense/admin/admin.php:85
+msgid "Not Displayed"
+msgstr "Ni prikazano"
+
+#: modules/gadsense/admin/admin.php:84
+#: modules/gadsense/admin/views/ad-params-manual-css.php:58
+msgid "remove"
+msgstr "odstrani"
+
+#: modules/gadsense/admin/admin.php:83
+#: modules/gadsense/admin/views/ad-params-manual-css.php:57
+msgid "Remove this rule"
+msgstr "Odstrani to pravilo"
+
+#: modules/amp/public/public.php:405
+msgid "Display ads on Accelerated Mobile Pages"
+msgstr "Prikaži oglase na Accelerated Mobile Pages"
+
+#: modules/amp/public/public.php:404
+msgid "Accelerated Mobile Pages"
+msgstr "Accelerated Mobile Pages"
+
+#: modules/amp/include/class-ad-type-amp.php:17
+msgid "Ads that are visible on Accelerated Mobile Pages"
+msgstr "Oglasi, ki so vidni na Accelerated Mobile Pages"
+
+#: modules/amp/admin/admin_adsense.php:30
+msgid "This ad type is not supported on AMP pages"
+msgstr "Ta vrsta oglasa ni podporta na straneh AMP"
+
+#: modules/amp/admin/admin.php:93
+msgid "is not"
+msgstr "ni"
+
+#: modules/amp/admin/admin.php:92
+msgid "is"
+msgstr "je"
+
+#: admin/views/setting_tooltip.php:7
+msgid "Display the sizes of the ads, ad containers and window in the frontend. Only logged in admin users will see it."
+msgstr "Prikaži velikosti oglasov, oglasnih kontejnerjev in okna na ospredju. To lahko vidijo le prijavljeni administratorji."
+
+#: admin/views/setting_tooltip.php:5
+msgid "off"
+msgstr "izklopljeno"
+
+#: admin/views/setting_tooltip.php:3
+msgid "on"
+msgstr "vklopljeno"
+
+#: admin/views/setting_responsive_images.php:2
+msgid "Check this option if the size of image ads is not adjusted responsively by your theme."
+msgstr "Obkljukaj to možnost, če tvoja tema ne odzivno spreminja velikost slikovnih oglasov."
+
+#: admin/views/setting_reload_ads.php:11
+msgid "You need <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> and cache-busting in order to use this feature."
+msgstr "Potrebuješ <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> in cache-busting, da lahko uporabiš to funkcijo."
+
+#: admin/views/setting_reload_ads.php:9
+msgid "Reload ads that are loaded via cache-busting when screen resizes."
+msgstr "Ponovno naloži oglase, ki so naloženi preko cache-busting, ko se spremeni širina ekrana."
+
+#: admin/views/list.php:85
+msgid "ad is NOT visible"
+msgstr "oglas NI viden"
+
+#: admin/views/list.php:83
+msgid "ad is visible"
+msgstr "oglas je viden"
+
+#: admin/views/list.php:35
+msgid "(ads without groups)"
+msgstr "(oglasi brez skupin)"
+
+#: admin/views/list.php:22
+msgid "ad"
+msgstr "oglas"
+
+#: admin/views/list.php:21
+msgid "ad group"
+msgstr "oglasna skupina"
+
+#: admin/views/list.php:16
+msgid "Not enough responsive ads to list them."
+msgstr "Ni dovolj odzivnih oglasov za prikaz seznama."
+
+#: public/public.php:143
+msgid "container width"
+msgstr "širina kontejnerja"
+
+#: public/public.php:142
+msgid "ad size"
+msgstr "velikost oglasa"
+
+#: public/public.php:141
+msgid "window width"
+msgstr "širina okna"
+
+#: classes/plugin.php:111
+msgid "Display ads based on tablet device."
+msgstr "Prikaži oglase glede na tablično napravo."
+
+#: classes/plugin.php:110
+msgid "tablet"
+msgstr "tablica"
+
+#: classes/plugin.php:104
+msgid "Display ads based on the browser width."
+msgstr "Prikaži oglase glede na širino brskalnika."
+
+#: classes/plugin.php:103
+msgid "browser width"
+msgstr "širina brskalnika"
+
+#: admin/admin.php:140
+msgid "Reload ads on resize"
+msgstr "Ponovno naloži oglase ob spremembi velikosti okna"
+
+#: admin/admin.php:131
+msgid "Responsive Image Ads"
+msgstr "Responsive Image Ads"
+
+#: admin/admin.php:122
+msgid "Activate size assistant"
+msgstr "Aktiviraj asistent velikosti"
+
+#: admin/admin.php:114 admin/admin.php:206 admin/admin.php:207
+#: admin/views/list.php:2
+msgid "Responsive Ads"
+msgstr "Responsive Ads"
+
+#: admin/admin.php:105
+msgid "Responsive"
+msgstr "Responsive"
+
+#: admin/admin.php:70
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong> potrebuje, da je vtičnik <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> nameščen in aktiviran na tvoji strani."
+
+#: admin/admin.php:66
+msgid "Install Now"
+msgstr "Namesti zdaj"
+
+#: admin/admin.php:64
+msgid "Activate Now"
+msgstr "Aktiviraj zdaj"

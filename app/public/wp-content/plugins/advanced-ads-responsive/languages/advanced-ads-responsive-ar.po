@@ -1,0 +1,313 @@
+# Translation of Responsive Ads in Arabic
+# This file is distributed under the same license as the Responsive Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-13 23:54:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: ar\n"
+"Project-Id-Version: Responsive Ads\n"
+
+#. %1$s is the opening link tag, %2$s is closing link tag.
+#: admin/views/list.php:8
+msgid "This feature is deprecated. Please find the removal schedule %1$shere%2$s"
+msgstr "تم إهمال هذه الميزة. الرجاء البحث عن جدول الإزالة %1$sهنا%2$s"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: modules/amp/admin/views/adsense-size.php:6
+msgid "automatically convert to AMP"
+msgstr "التحويل التلقائي إلى AMP"
+
+#. Description of the plugin
+msgid "Improve ad display on mobile devices and AMP pages"
+msgstr "تحسين عرض الإعلانات على أجهزة الجوال وصفحات AMP"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:33
+msgid "on mobile"
+msgstr "على الجوال"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Columns"
+msgstr "الأعمدة"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Rows"
+msgstr "صفوف"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "on desktop"
+msgstr "على سطح المكتب"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:12
+msgid "manual"
+msgstr "دليل المستخدم"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:11
+msgid "Customize"
+msgstr "تعديل"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:7
+msgid "Layout"
+msgstr "تخطيط"
+
+#: admin/admin.php:147
+msgid "Fallback width"
+msgstr "العرض الاحتياطي"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/responsive-ads/"
+msgstr "https://wpadvancedads.com/add-ons/responsive-ads/"
+
+#. Name of the plugin
+msgid "Advanced Ads – Responsive Ads"
+msgstr "الإعلانات المتقدمة - الإعلانات المستجيبة"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:46
+msgid "Not displayed"
+msgstr "غير معروض"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:32
+msgid "Add rule"
+msgstr "أضف القاعدة"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:23
+#: modules/gadsense/admin/views/ad-params-manual-css.php:29
+msgid "Hide for this size ?"
+msgstr "إخفاء لهذا الحجم؟"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:20
+msgid "Default"
+msgstr "افتراضي"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:15
+msgid "hidden"
+msgstr "مخفي"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:14
+msgid "ad height"
+msgstr "ارتفاع الإعلان"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:13
+msgid "ad width"
+msgstr "عرض الإعلان"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:12
+msgid "min. browser width"
+msgstr "الحد الأدنى لعرض المتصفح"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:8
+msgid "Need help? Take a look at the <a href=\"%s\" target=\"_blank\">tutorial</a>."
+msgstr "تحتاج مساعدة؟ ألق نظرة على <a href=\"%s\" target=\"_blank\"> المقال التعليمي </a>."
+
+#: modules/amp/admin/views/adsense-size.php:30
+msgid "no AMP plugin found"
+msgstr "م يتم العثور على مكون إضافي لصفحات AMP"
+
+#: modules/amp/admin/views/adsense-size.php:26
+msgid "hide"
+msgstr "إخفاء"
+
+#: modules/amp/admin/views/adsense-size.php:20
+msgid "use responsive width and static height of %s px"
+msgstr "استخدام عرض متجاوب وارتفاع ثابت يبلغ %s بكسل"
+
+#: modules/amp/admin/views/adsense-size.php:13
+msgid "use dynamic size with ratio %s x %s"
+msgstr "استخدام حجم ديناميكي بنسبة %s x %s"
+
+#: modules/amp/admin/views/ad-params.php:36
+msgid " If supported by the ad network, this text is shown if no ad is available for the ad slot"
+msgstr "في حالة دعم الشبكة الإعلانية ، يتم عرض هذا النص في حالة عدم توفر إعلان للشريحة الإعلانية"
+
+#: modules/amp/admin/views/ad-params.php:33
+msgid "Fallback"
+msgstr "الاحتياطي"
+
+#: modules/amp/admin/views/ad-params.php:25
+msgid "Add attribute"
+msgstr "اضف ميزة"
+
+#: modules/amp/admin/views/ad-params.php:7
+msgid "Value"
+msgstr "قيمة"
+
+#: modules/amp/admin/views/ad-params.php:6
+msgid "Name"
+msgstr "الاسم"
+
+#: modules/amp/admin/views/ad-params.php:1
+msgid "Attributes"
+msgstr "صفات"
+
+#: modules/gadsense/includes/hooking.php:50
+msgid "advanced"
+msgstr "المتقدمة"
+
+#: modules/gadsense/includes/hooking.php:49
+msgid "vertical"
+msgstr "عمودي"
+
+#: modules/gadsense/includes/hooking.php:48
+msgid "rectangle"
+msgstr "مستطيل"
+
+#: modules/gadsense/includes/hooking.php:47
+msgid "horizontal"
+msgstr "أفقي"
+
+#: modules/gadsense/admin/admin.php:85
+msgid "Not Displayed"
+msgstr "غير معروض"
+
+#: modules/gadsense/admin/admin.php:84
+#: modules/gadsense/admin/views/ad-params-manual-css.php:58
+msgid "remove"
+msgstr "إزالة"
+
+#: modules/gadsense/admin/admin.php:83
+#: modules/gadsense/admin/views/ad-params-manual-css.php:57
+msgid "Remove this rule"
+msgstr "قم بإزالة هذه القاعدة"
+
+#: modules/amp/public/public.php:405
+msgid "Display ads on Accelerated Mobile Pages"
+msgstr "عرض الإعلانات على صفحات الجوّال المسرَّعة"
+
+#: modules/amp/public/public.php:404
+msgid "Accelerated Mobile Pages"
+msgstr "صفحات الجوّال المسرَّعة"
+
+#: modules/amp/include/class-ad-type-amp.php:17
+msgid "Ads that are visible on Accelerated Mobile Pages"
+msgstr "الإعلانات التي تظهر على صفحات الجوّال المسرَّعة"
+
+#: modules/amp/admin/admin_adsense.php:30
+msgid "This ad type is not supported on AMP pages"
+msgstr "نوع الإعلان هذا غير متاح في صفحات AMP"
+
+#: modules/amp/admin/admin.php:93
+msgid "is not"
+msgstr "في حالة ليس"
+
+#: modules/amp/admin/admin.php:92
+msgid "is"
+msgstr "في حالة"
+
+#: admin/views/setting_tooltip.php:7
+msgid "Display the sizes of the ads, ad containers and window in the frontend. Only logged in admin users will see it."
+msgstr "اعرض أحجام الإعلانات وحاويات الإعلانات والنافذة في الواجهة الأمامية. فقط المستخدمين المشرفين الذين قاموا بتسجيل الدخول سيشاهدونه."
+
+#: admin/views/setting_tooltip.php:5
+msgid "off"
+msgstr "غير مشغل"
+
+#: admin/views/setting_tooltip.php:3
+msgid "on"
+msgstr "مشغل"
+
+#: admin/views/setting_responsive_images.php:2
+msgid "Check this option if the size of image ads is not adjusted responsively by your theme."
+msgstr "حدد هذا الخيار إذا لم يتم تعديل حجم الإعلانات المصورة بشكل متجاوب حسب الموضوع الخاص بك."
+
+#: admin/views/setting_reload_ads.php:11
+msgid "You need <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> and cache-busting in order to use this feature."
+msgstr "أنت بحاجة إلى <a href=\"%s\" target=\"_blank\"> Advanced Ads Pro </a> وخرق ذاكرة التخزين المؤقت من أجل استخدام هذه الميزة."
+
+#: admin/views/setting_reload_ads.php:9
+msgid "Reload ads that are loaded via cache-busting when screen resizes."
+msgstr "أعد تحميل الإعلانات التي يتم تحميلها عبر ضبط ذاكرة التخزين المؤقت عند تغيير حجم الشاشة."
+
+#: admin/views/list.php:85
+msgid "ad is NOT visible"
+msgstr "الإعلان غير مرئي"
+
+#: admin/views/list.php:83
+msgid "ad is visible"
+msgstr "الإعلان مرئي"
+
+#: admin/views/list.php:35
+msgid "(ads without groups)"
+msgstr "(إعلانات بدون مجموعات)"
+
+#: admin/views/list.php:22
+msgid "ad"
+msgstr "إعلان"
+
+#: admin/views/list.php:21
+msgid "ad group"
+msgstr "المجموعة الإعلانية"
+
+#: admin/views/list.php:16
+msgid "Not enough responsive ads to list them."
+msgstr "لا توجد إعلانات متجاوبة كافية لإدراجها في القائمة."
+
+#: public/public.php:143
+msgid "container width"
+msgstr "عرض الحاوية"
+
+#: public/public.php:142
+msgid "ad size"
+msgstr "حجم الإعلان"
+
+#: public/public.php:141
+msgid "window width"
+msgstr "عرض النافذة"
+
+#: classes/plugin.php:111
+msgid "Display ads based on tablet device."
+msgstr "عرض الإعلانات على أساس الجهاز اللوحي."
+
+#: classes/plugin.php:110
+msgid "tablet"
+msgstr " الجهاز اللوحي"
+
+#: classes/plugin.php:104
+msgid "Display ads based on the browser width."
+msgstr "عرض الإعلانات على أساس عرض المتصفح."
+
+#: classes/plugin.php:103
+msgid "browser width"
+msgstr "عرض المتصفح"
+
+#: admin/admin.php:140
+msgid "Reload ads on resize"
+msgstr "إعادة تحميل الإعلانات عند تغيير الحجم"
+
+#: admin/admin.php:131
+msgid "Responsive Image Ads"
+msgstr "صور إعلانية مستجيبة"
+
+#: admin/admin.php:122
+msgid "Activate size assistant"
+msgstr "تنشيط مساعد الحجم"
+
+#: admin/admin.php:114 admin/admin.php:206 admin/admin.php:207
+#: admin/views/list.php:2
+msgid "Responsive Ads"
+msgstr "الإعلانات المستجيبة"
+
+#: admin/admin.php:105
+msgid "Responsive"
+msgstr "متجاوب"
+
+#: admin/admin.php:70
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "يتطلب <strong> %s </strong> تثبيت وتفعيل المكوّن الإضافي <strong> <a href=\"https://wpadvancedads.com\" target=\"_blank\"> Advanced Ads </a> </strong> على موقعك."
+
+#: admin/admin.php:66
+msgid "Install Now"
+msgstr "تثبيت الآن"
+
+#: admin/admin.php:64
+msgid "Activate Now"
+msgstr "نشط الآن"

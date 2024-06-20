@@ -1,0 +1,13 @@
+/*
+Theme Name: NewSpectrum
+Text Domain: Sports Spectrum
+Version: 1.0
+Description: Theme for Sports Spectrum Website
+Tags: News, Sports, Faith-based
+Author: Sports Spectrum Team
+Author URI: http://sportsspectrum.com
+*/
+
+html, body {
+    background-color: beige;
+}

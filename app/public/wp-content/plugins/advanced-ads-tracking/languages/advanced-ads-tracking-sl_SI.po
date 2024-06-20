@@ -1,0 +1,1316 @@
+# Translation of Ad Tracking in Slovenian
+# This file is distributed under the same license as the Ad Tracking package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-31 16:32:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: sl_SI\n"
+"Project-Id-Version: Ad Tracking\n"
+
+#. %s is the HTML tags displayed in the frontend.
+#: admin/views/ad_tracking_options.php:76
+msgid "Use the %1$s parameter in your editor, or remove %2$s from Target URL."
+msgstr "Uporabi parameter %1$s v svojem urejevalniku ali odstrani %2$s iz ciljnega URL-ja."
+
+#: admin/admin.php:1115
+msgid "The link found in the ad code is used as the target URL. If you replace it with the <code>%link%</code> placeholder, the ad will be linked to the address specified in the Target URL field."
+msgstr "Povezava, najdena v kodi oglasa je uporabljena kot ciljni URL. Če jo zamenjaš z vsebnikom <code>%link%</code>, bo oglas povezan na naslov, ki je v polju Ciljni URL."
+
+#: admin/views/metabox-limiter.php:66
+msgid "Reset stats"
+msgstr "Ponastavi statistiko"
+
+#. %s is the default value ("new window" or "same window")
+#: admin/views/ad_tracking_options.php:126
+msgid "It is \"%s\" by default. You can change this in the General settings."
+msgstr "Privzeto je \"%s\". To lahko spremeniš v Splošnih nastavitvah."
+
+#. %1$s is the default value ("yes" or "no")
+#: admin/views/ad_tracking_options.php:153
+#: admin/views/ad_tracking_options.php:186
+msgid "It is \"%1$s\" by default. You can change this in the Tracking settings."
+msgstr "Privzeto je \"%1$s\". To lahko spremeniš v nastavitvah sledenja."
+
+#: admin/admin.php:719
+msgid "<a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=edit-ad-reports-google-analytics\" target=\"_blank\">How to share Google Analytics ad reports with your customers.</a>"
+msgstr "<a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=edit-ad-reports-google-analytics\" target=\"_blank\">Kako deliti poročila oglasov Google Analytics s tvojimi strankami.</a>"
+
+#: admin/admin.php:1614
+msgid " <a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=settings-reports-google-analytics\" target=\"_blank\">How to share Google Analytics ad reports with your customers.</a>"
+msgstr "\t <a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=settings-reports-google-analytics\" target=\"_blank\">Kako deliti poročila oglasov Google Analytics s tvojimi strankami.</a>"
+
+#: admin/views/ad_tracking_options.php:38
+msgid "Target URL"
+msgstr "Ciljni URL"
+
+#: admin/views/ad_tracking_options.php:61
+msgid "Links your ad to the target URL."
+msgstr "Povezava iz tvojega oglasa na ciljni URL."
+
+#: admin/views/ad_tracking_options.php:64
+msgid "If the ad code contains an <code>&lt;a&gt;</code> tag with a link target, copy the URL into the Target URL field and add <code>\"%link%\"</code> to your ad code."
+msgstr "Če koda oglasa vsebuje oznako <code>&lt;a&gt;</code> s ciljnio povezavo, kopiraj URL v polje Ciljni URL in v kodo oglasa dodaj <code>\"%link%\"</code>."
+
+#. %1$s is the opening link tag, %2$s is the closing link tag.
+#: admin/views/stats.php:78
+msgid "You are currently tracking ads with Google Analytics. The statistics can be viewed only within your %1$sAnalytics account%2$s."
+msgstr "Trenutno beležiš oglase z Googlovo analitiko. Statistiko lahko pogledaš le znotraj svojega %1$sračuna Analytics%2$s."
+
+#. %s is an inline code snippet
+#: admin/views/ad_tracking_options.php:47
+msgid "If you enable the link cloaking option, please replace the links you want to track in the ad code with the tracking placeholder (%s). Otherwise, Advanced Ads will not record clicks on this ad."
+msgstr "Če omogočiš možnost skrivanja povezave, prosim zamenjaj povezave, katerim želiš slediti v kodi oglasa, z sledilnim vsebnikom (%s). Drugače Advanced Ads ne bo zabeležil klikov na ta oglas."
+
+#: admin/views/ad_tracking_options.php:43
+msgid "Based on your configuration, it seems that you do not need to specify an external link. You can leave the URL field empty."
+msgstr "Glede na tvoje nastavitve, izgleda da ni treba dodati zunanje povezave. Polje URL lahko pustiš prazno."
+
+#: admin/views/setting_method.php:34
+msgid "Should only be used by experienced users."
+msgstr "Naj uporabijo le izkušeni uporabniki."
+
+#: admin/views/setting_ga.php:12
+msgid "One or more Google Analytics properties to which you want the data to be sent. Separate multiple properties with commas."
+msgstr "Ena ali več lastnin (property) Google Analytics, katerim želiš poslati podatke. Loči več lastnin z vejicami."
+
+#: admin/views/stats.php:239
+msgid "Statistics by date"
+msgstr "Statistike po datumu"
+
+#: admin/views/stats.php:245
+msgid "Statistics by ad"
+msgstr "Statistike po oglasu"
+
+#: admin/views/stats.php:87
+msgid "Filter"
+msgstr "Filtriraj"
+
+#: admin/views/stats.php:89
+msgid "Database management"
+msgstr "Upravljanje podatkovne baze"
+
+#. 1: is <code>ajax-handler.php</code>, 2: is the opening link to the
+#. documentation, 3: closing link tag
+#: classes/installer.php:353
+msgid "You can find more information about the %1$s and fallback method %2$sin the documentation%3$s."
+msgstr "Več informacij o %1$s in nadomestni metodi lahko najdeš %2$sv dokumentaciji%3$s."
+
+#. 1: <code>wp-config.php</code> 2: <code>define(
+#. 'ADVANCED_ADS_TRACKING_LEGACY_AJAX', true )</code>
+#: classes/installer.php:351
+msgid "To make this change permanent, please add the following to your %1$s: %2$s."
+msgstr "Da postane ta sprememba trajna, prosim dodaj naslenje v svoj %1$s: %2$s."
+
+#. %s is <code>wp-admin/admin-ajax.php</code>
+#: classes/installer.php:347
+msgid "Falling back to %s."
+msgstr "Vračam nazaj v %s."
+
+#: classes/installer.php:342
+msgid "Please send us the following output:"
+msgstr "Prosimo pošljite nam naslednji izpis:"
+
+#: classes/installer.php:339
+msgid "The Advanced Ads AJAX tracking drop-in created unexpected output and has been removed."
+msgstr "Advanced Ads AJAX tracking drop-in je ustvaril nepričakovan izpis in je bil odstranjen."
+
+#. 1: is an example id for Universal Analytics <code>UA-123456-1</code>, 2: is
+#. an example id for GA4 '<code>G-A12BC3D456</code>'
+#: admin/views/setting_ga.php:17
+msgid "%1$s for Universal Analytics or %2$s for Google Analytics 4."
+msgstr "%1$s za Universal Analytics ali %2$s za Google Analytics 4."
+
+#: classes/db-operations.php:86 admin/views/db-operations.php:149
+msgid "The debug log file can't be written."
+msgstr "Datoteka beleženja napak ne more biti zapisana."
+
+#: admin/views/db-operations.php:202
+msgid "Successfully deleted debug log file."
+msgstr "Uspešno izbrisal datoteko beleženja napak."
+
+#. placeholder is path to WP_CONTENT_DIR
+#. %s is the path to WP_CONTENT_DIR
+#: classes/db-operations.php:89 admin/views/db-operations.php:152
+msgid " Please make sure the directory %s is writable"
+msgstr "Prosim poskrbi, da je mapa %s zapisljiva"
+
+#: classes/db-operations.php:80
+msgid "Can't delete debugging option"
+msgstr "Ne morem izbrisati možnosti odpravljanja napak"
+
+#: classes/db-operations.php:103
+msgid "Can't save debugging option"
+msgstr "Ne morem shraniti možnosti odpravljanja napak"
+
+#. 1: opening a-tag with link to settings page 2: closing a-tag
+#: classes/plugin.php:135
+msgid "You have selected to track ads with Google Analytics but not provided a tracking ID. Please add the Google Analytics UID %1$shere%2$s"
+msgstr "Izbral si sledenje oglasov z Google Analytics, a nisi vpisal sledilnega ID. Prosim dodaj Google Analytics UID %1$stukaj%2$s"
+
+#: admin/admin.php:1109
+msgid "Use the <code>URL field</code> or remove <code>%link%</code> parameter from your editor."
+msgstr "Uporabi <code>URL field</code> ali odstrani parameter <code>%link%</code> iz urejevalnika."
+
+#: admin/views/setting_method.php:33
+msgid "Track impressions when the ad is requested from the database."
+msgstr "Sledi prikaze, ko je oglas zahtevan iz podatkovne baze."
+
+#: admin/views/setting_method.php:17
+msgid "Track impressions after the ad was loaded in the frontend."
+msgstr "Sledi prikaze, ko se oglas naloži v ospredju."
+
+#: admin/views/metabox-limiter.php:24
+msgid "this hour"
+msgstr "to uro"
+
+#. %s is the filter name wrapped in <code> tags.
+#: admin/views/ad_tracking_options.php:102
+msgid "The value for link cloaking is defined for all ads by the %s filter."
+msgstr "Vrednost maskiranja povezav je definirana za vse oglase s filtrom %s."
+
+#: admin/views/metabox-limiter.php:93
+msgid "The overall goals for impressions and clicks have been reached."
+msgstr "Skupni cilji prikazov in klikov so bili doseženi."
+
+#: admin/views/metabox-limiter.php:97
+msgid "The overall goal for impressions has been reached."
+msgstr "Skupni cilj prikazov je bil dosežen."
+
+#: admin/views/metabox-limiter.php:95
+msgid "The overall goal for clicks has been reached."
+msgstr "Skupni cilj klikov je bil dosežen."
+
+#: admin/admin.php:726
+msgid "The number of impressions and clicks can vary from those in your AdSense account."
+msgstr "Števila prikazov in klikov se lahko razlikuje od tistih v tvojem računu AdSense."
+
+#. ADVANCED_ADS_TRACKING_NO_HOURLY_LIMIT constant name in <code> tag
+#: admin/views/metabox-limiter.php:110
+msgid "The constant %s is set to true."
+msgstr "Konstanta %s je nastavljena na true."
+
+#: admin/views/setting_method.php:58
+msgid "The advanced-ads-tracking-load-header-scripts filter is set to false which removes any tracking scripts in the frontend. Only the Database tracking method is working now."
+msgstr "Filter advanced-ads-tracking-load-header-scripts je nastavljen na false, kar odstrani vse sledilne skripte v ospredju. Trenutno deluje le metoda sledenja podatkovne baze. "
+
+#. impressions, clicks, or impressions or clicks
+#: admin/views/metabox-limiter.php:101
+msgid "The ad %s will be delivered as soon as possible."
+msgstr "Oglas %s bo dostavljen čim prej."
+
+#: addon-init.php:119
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: admin/views/metabox-limiter.php:115
+msgid "Set an expiry date in the <em>Publish</em> meta box to spread impressions over a period."
+msgstr "Nastavi datum poteka v <em>Objavi</em> meta okvirju za razporeditev prikazov skozi obdobje."
+
+#: admin/views/metabox.php:112
+msgid "Reports"
+msgstr "Poročila"
+
+#: admin/views/setting_sponsored.php:18
+msgid "Read Google's recommendation on Google Webmaster Central Blog."
+msgstr "Preberi Googlovo dokumentacijo na Google Webmaster Central Blogu."
+
+#. 1: WP_CONTENT_DIR 2: <code>wp-config.php</code> 3: <code>define(
+#. 'ADVANCED_ADS_TRACKING_LEGACY_AJAX', true )</code>
+#: classes/installer.php:156
+msgid "Please make sure the directory %1$s is writable or add the following to your %2$s: %3$s."
+msgstr "Prosim zagotovi, da je mapa %1$s zapisljiva ali dodaj naslednje svojim %2$s: %3$s."
+
+#: admin/views/metabox.php:159
+#: admin/views/setting_email_report_stats_period.php:6
+msgid "Period used in the report"
+msgstr "Obdobje, uporabljeno v poročilu"
+
+#: admin/views/setting_linkbase.php:10
+msgid "Pattern of the click-tracking URL if link cloaking is used. Should not collide with any posts or pages. Use chars: a-z/-"
+msgstr "Vzorec povezave sledenja klikov, če je v uporabi maskiranje povezav. Naj se ne križa s prispevki ali stranmi. Uporabi znake a-z/-"
+
+#: admin/views/metabox-limiter.php:21
+msgid "overall"
+msgstr "skupaj"
+
+#. %d is the ad_id
+#: classes/db-operations.php:149
+msgid "No stats for ad ID %d removed."
+msgstr "Nobenih statistik za oglas ID %d ni bilo odstranjenih."
+
+#: admin/admin.php:728 admin/views/ad_tracking_options.php:34
+#: admin/views/ad_tracking_options.php:51
+#: admin/views/ad_tracking_options.php:58 admin/views/metabox-limiter.php:57
+#: admin/views/setting_method.php:22 admin/views/setting_method.php:35
+msgid "Manual"
+msgstr "Priročnik"
+
+#. %d is the number of hours
+#: admin/views/db-operations.php:187
+msgid "Logs more information about tracked data for %d hours starting now."
+msgstr "Zabeleži več informacij o sledilnih podatkih za %d ur, začenši zdaj."
+
+#: admin/admin.php:477
+msgid "Install Now"
+msgstr "Namesti zdaj"
+
+#: admin/views/setting_method.php:40
+msgid "Impression tracking is not working on AMP sites without SSL encryption."
+msgstr "Sledenje prikazov ne deluje na straneh AMP brez enkripcije SSL."
+
+#: admin/views/metabox-limiter.php:23
+msgid "hourly limit"
+msgstr "urni limit"
+
+#: admin/views/setting_method.php:14
+msgid "Frontend"
+msgstr "Ospredje"
+
+#: admin/views/setting_method.php:30
+msgid "experienced users"
+msgstr "izkušeni uporabniki"
+
+#. %s represents the string
+#: admin/views/db-operations.php:115
+msgid "Debugging is prohibited through the constant %s"
+msgstr "Odpravljanje napak je preprečeno s konstanto %s"
+
+#. 1: name of the add (or all ads), 2: amount of hours, 3: amount of minutes
+#: admin/views/db-operations.php:160
+msgid "Debugging %1$s for another %2$s and %3$s."
+msgstr "Odpravljanje napak %1$s za nadaljnjih %2$s in %3$s."
+
+#. %s is the URL displayed in the frontend, wrapped in <code> tags.
+#: admin/views/ad_tracking_options.php:89
+msgid "Cloak your link. The link will be displayed as %s."
+msgstr "Skrij svojo povezavo. Povezava bo prikazana kot %s."
+
+#: admin/admin.php:852 admin/views/ad_tracking_options.php:162
+msgid "Add “sponsored”"
+msgstr "Dodaj \"sponsored\""
+
+#: admin/views/ad_tracking_options.php:147
+msgid "Add <code>rel=\"nofollow\"</code> to tracking links."
+msgstr "Dodaj <code>rel=\"nofollow\"</code> k sledilnim povezavam."
+
+#. %s is <code>rel="nofollow"</code>
+#. %s is <code>rel="sponsored"</code>
+#: admin/views/setting_nofollow.php:13 admin/views/setting_sponsored.php:13
+msgid "Add %s to programatically created links."
+msgstr "Dodaj %s programatično ustvarjenim povezavam."
+
+#: admin/admin.php:470
+msgid "Activate Now"
+msgstr "Aktiviraj zdaj"
+
+#. %s is name of the ad.
+#: admin/views/db-operations.php:139
+msgid "<code>ADVANCED_ADS_TRACKING_DEBUG</code> constant is set: Debugging %s."
+msgstr "Konstanta <code>ADVANCED_ADS_TRACKING_DEBUG</code> je nastavljena: odpravljam napake %s."
+
+#. %d is a number for minutes
+#: admin/views/db-operations.php:165
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuta"
+msgstr[1] "%d minuti"
+msgstr[2] "%d minute"
+msgstr[3] "%d minut"
+
+#. %d is a number for hours
+#: admin/views/db-operations.php:163
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ura"
+msgstr[1] "%d uri"
+msgstr[2] "%d ure"
+msgstr[3] "%d ur"
+
+#. 1: this plugins' name, 2: link to main plugin
+#: admin/admin.php:484
+msgid "%1$s requires the %2$s plugin to be installed and activated on your site."
+msgstr "%1$s zahteva,da je vtičnik %2$s nameščen in omogočen na tvoji strani."
+
+#: admin/views/setting_method.php:50
+msgid "Please choose either the Frontend or Google Analytics method."
+msgstr "Prosim izberi metodo Frontend ali Google Analytics."
+
+#: admin/admin.php:2066
+msgid "The selected tracking method is not compatible with the TCF 2.0 integration."
+msgstr "Izbrana metoda sledenja ni kompatibilna z integracijo TCF 2.0."
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: admin/admin.php:862
+msgid "Database Management"
+msgstr "Upravljanje podatkovne baze"
+
+#: admin/admin.php:799
+msgid "Advanced"
+msgstr "Napredno"
+
+#: admin/views/deleted-ads-form.php:48
+msgid "Failing to delete the log file."
+msgstr "Ne uspe mi izbrisati dnevniške datoteke."
+
+#: admin/views/db-operations.php:217
+msgid "delete the file"
+msgstr "izbriši to datoteko"
+
+#. %1$s is a beginning HTML tag, %2$s is the closing one.
+#: admin/views/db-operations.php:211
+msgid "View the tracking %1$sdebug log file%2$s"
+msgstr "Poglej %1$sdnevniško datoteko za odpravljenje napak%2$s sledenja"
+
+#: admin/views/db-operations.php:182
+msgid "enable"
+msgstr "omogoči"
+
+#: admin/views/db-operations.php:173
+msgid "disable"
+msgstr "onemogoči"
+
+#: admin/views/db-operations.php:107
+msgid "Debug mode"
+msgstr "Odpravljanje napak"
+
+#: admin/views/db-operations.php:91
+msgid "--deleted ads--"
+msgstr "--izbrisani oglasi--"
+
+#: admin/views/metabox-limiter.php:126
+msgid "The impressions goal for the current hour has been reached."
+msgstr "Cilj prikazov za trenutno uro je bil dosežen."
+
+#: admin/views/metabox-limiter.php:82
+msgid "impressions or clicks"
+msgstr "prikazi ali kliki"
+
+#: admin/views/metabox.php:119
+msgid "Save the ad to confirm the change"
+msgstr "Shrani oglas, da potrdiš spremembo"
+
+#: admin/views/metabox.php:118
+msgid "Generate a new sharable link"
+msgstr "Ustvari novo deljivo povezavo"
+
+#: admin/admin.php:1080
+msgid "enabled"
+msgstr "omogočeno"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/tracking/"
+msgstr "https://wpadvancedads.com/add-ons/tracking/"
+
+#. Description of the plugin
+msgid "Track ad impressions and clicks."
+msgstr "Sledi prikaze in klike oglasov."
+
+#. Name of the plugin
+msgid "Advanced Ads – Tracking"
+msgstr "Advanced Ads – Tracking"
+
+#: public/views/ad-stats.php:76
+msgid "Load"
+msgstr "Naloži"
+
+#: public/views/ad-stats.php:56
+msgid "Statistics for %s"
+msgstr "Statistike za %s"
+
+#: public/views/ad-stats.php:21
+msgid "Ad Statistics"
+msgstr "Statistike oglasov"
+
+#: admin/views/stats.php:211
+msgid "Current filters"
+msgstr "Trenutni filtri"
+
+#: admin/views/stats.php:206
+msgid "Filter by group"
+msgstr "Filtriraj po skupini"
+
+#: admin/views/stats.php:196
+msgid "Filter by ad"
+msgstr "Filtriraj po oglasu"
+
+#: admin/views/stats.php:180
+msgid "next period"
+msgstr "naslednje obdobje"
+
+#: admin/views/stats.php:178
+msgid "previous period"
+msgstr "predhodno obdobje"
+
+#: admin/views/stats.php:176
+msgid "Compare with"
+msgstr "Primerjaj z"
+
+#: admin/views/setting_advanced_db_mgmt.php:7
+msgid "Open database management"
+msgstr "Odpri upravljanje podatkovne baze"
+
+#: admin/views/stats.php:160
+msgid "select file"
+msgstr "izberi datoteko"
+
+#: admin/views/stats.php:155
+msgid "File"
+msgstr "Datoteka"
+
+#: admin/views/setting_method.php:30 admin/views/stats.php:153
+msgid "Database"
+msgstr "Podatkovna baza"
+
+#: admin/views/stats.php:129
+msgid "first month"
+msgstr "prvi mesec"
+
+#: admin/views/stats.php:128
+msgid "latest month"
+msgstr "zadnji mesec"
+
+#: admin/views/stats.php:121 admin/views/stats.php:137
+msgid "load stats"
+msgstr "naloži statistike"
+
+#: admin/views/stats.php:103
+msgid "Data source:"
+msgstr "Vir podatkov:"
+
+#: admin/views/stats.php:98
+msgid "Group by:"
+msgstr "Združi po:"
+
+#: admin/views/stats.php:97 public/views/ad-stats.php:60
+msgid "Period"
+msgstr "Obdobje"
+
+#: admin/views/setting_uninstall.php:3
+msgid "Clean up all database entries related to tracking when removing the Tracking add-on."
+msgstr "Počisti vse vnose v podatkovni bazi, povezane s sledenjem, ko odstraniš dodatek Tracking."
+
+#: admin/views/setting_tracking_bots.php:3
+msgid "Activate to also count impressions and clicks for crawlers, bots and empty user agents"
+msgstr "Aktiviraj, da štejem tudi prikaze in klike pajkov, robotov in praznih uporabniških agentov."
+
+#: admin/views/setting_method.php:21
+msgid "Track impressions and clicks in Google Analytics."
+msgstr "Sledi prikaze in klike v Google Analytics."
+
+#: admin/views/setting_ga.php:8
+msgid "Your Tracking ID"
+msgstr "Tvoj sledilni ID"
+
+#: admin/views/setting_everything.php:7
+msgid "You can change this setting individually for each ad on the ad edit page."
+msgstr "To nastavitev lahko spremeniš za vsak posamezen oglas na strani urejanja oglasa."
+
+#: admin/views/setting_everything.php:3
+msgid "don’t track anything"
+msgstr "ne sledi ničesar"
+
+#: admin/views/setting_email_test_email.php:21
+msgid "Add and save a recipient before sending a test email."
+msgstr "Dodaj in shrani prejemnika pred pošiljanjem testne e-pošte."
+
+#. 1: cron job schedule (e.g. 'daily'), 2: current timezone
+#: admin/views/setting_email_test_email.php:17
+msgid "Email will be sent %1$s at 00:15 %2$s"
+msgstr "E-pošte bodo poslane %1$s ob 00.15 %2$s"
+
+#: admin/views/setting_email_test_email.php:12
+msgid "Send a report immediately to the listed email addresses"
+msgstr "Takoj pošlji poročilo napisanim e-poštnim naslovom"
+
+#: admin/views/setting_email_test_email.php:11
+msgid "send email"
+msgstr "pošlji e-pošto"
+
+#: admin/views/setting_email_test_email.php:7
+msgid "first day of the month"
+msgstr "prvi dan v mesecu"
+
+#: admin/views/setting_email_test_email.php:5
+msgid "every Monday"
+msgstr "vsak ponedeljek"
+
+#: admin/views/setting_email_test_email.php:3
+msgid "every day"
+msgstr "vsak dan"
+
+#: admin/views/metabox.php:170
+#: admin/views/setting_email_report_frequency.php:13
+msgid "How often to send email reports"
+msgstr "Kako pogosto poslati e-poštna poročila"
+
+#: admin/views/metabox.php:168
+#: admin/views/setting_email_report_frequency.php:11
+msgid "monthly"
+msgstr "mesečno"
+
+#: admin/views/metabox.php:167 admin/views/setting_email_report_frequency.php:7
+msgid "weekly"
+msgstr "tedensko"
+
+#: admin/views/metabox.php:166 admin/views/setting_email_report_frequency.php:3
+msgid "daily"
+msgstr "dnevno"
+
+#: admin/views/metabox.php:165
+msgid "never"
+msgstr "nikoli"
+
+#: admin/views/metabox.php:162
+msgid "report frequency"
+msgstr "frekvenca poročil"
+
+#: admin/views/metabox.php:152
+msgid "report period"
+msgstr "obdobje poročil"
+
+#: admin/views/metabox.php:149 admin/views/setting_email_report_recip.php:3
+msgid "Separate multiple emails with commas"
+msgstr "Loči več e-poštnih naslovov z vejicami"
+
+#: admin/views/metabox.php:149
+msgid "Email address to send the performance report for this ad"
+msgstr "E-poštni naslovi, na katere naj pošljem poročilo uspešnosti tega oglasa"
+
+#: admin/views/metabox.php:140
+msgid "report recipient"
+msgstr "prejemnik poročila"
+
+#. Ad has already expired.
+#: admin/views/metabox-limiter.php:166
+msgid "This ad expired already."
+msgstr "Ta oglas je že potekel."
+
+#. 1: "impressions and clicks", 2: the remaining time string 3: the current
+#. impression pace, 4: the current click pace
+#: admin/views/metabox-limiter.php:156
+msgid "The %1$s are spread equally through %2$s currently with a limit of %3$s impressions or %4$s clicks per hour."
+msgstr "%1$s so razporejeni enakomerno skozi %2$s, trenutno z limitom %3$s prikazov ali %4$s klikov na uro."
+
+#. 1: "impressions" or "clicks", 2: the remaining time string 3: the current
+#. pace
+#: admin/views/metabox-limiter.php:148
+msgid "The %1$s are spread equally through %2$s currently with a limit of %3$d %1$s per hour."
+msgstr "%1$s so razporejeni enakomerno skozi %2$s, trenutno z limitom %3$d %1$s na uro."
+
+#: admin/views/metabox-limiter.php:132
+msgid "The clicks goal for the current hour has been reached."
+msgstr "Cilj klikov za trenutno uro je bil dosežen."
+
+#: admin/views/metabox-limiter.php:127 admin/views/metabox-limiter.php:133
+msgid "Impressions will resume in the next hour"
+msgstr "Prikazi se bodo nadaljevali v naslednji uri"
+
+#: admin/views/metabox-limiter.php:55
+msgid "Set a limit if you want to expire the ad after a specific amount of impressions or clicks."
+msgstr "Nastavi limit, če želiš, da oglas poteče po specifični količini prikazov ali klikov."
+
+#: admin/views/metabox-limiter.php:26
+msgid "limit"
+msgstr "limit"
+
+#: admin/views/metabox-limiter.php:15
+msgid "limits"
+msgstr "limiti"
+
+#: admin/views/metabox.php:130
+msgid "Will be used as ad name instead of the internal ad title"
+msgstr "Bo uporabljeno kot ime oglasa namesto internega naslova oglasa"
+
+#: admin/views/metabox.php:126
+msgid "Public name"
+msgstr "Javno ime"
+
+#: admin/views/metabox.php:121
+msgid "The public report URL for this ad will be generated the next time it is saved."
+msgstr "Javna povezava poročila za ta oglas bo ustvarjena naslednjič, ko je shranjen."
+
+#: admin/views/metabox.php:117
+msgid "Shareable Link"
+msgstr "Deljiva povezava"
+
+#: admin/views/metabox.php:115
+msgid "Dashboard"
+msgstr "Nadzorna plošča"
+
+#. %s is a URL
+#: admin/views/db-operations-time.php:16
+msgid "If you notice a shift between your own time and stats, please check if the highlighted time is your local time. If not, please check if your <a href=\"%s\">time zone</a> is set correctly."
+msgstr "Če opaziš razliko med lastnim časom in statistiko, prosim preveri, če je označen čas lokalni čas. Če ni, prosim preveri, če je tvoj <a href=\"%s\">časovni pas</a> nastavljen pravilno."
+
+#: admin/views/db-operations-time.php:10
+msgid "Time setup"
+msgstr "Nastavitev časa"
+
+#: admin/admin.php:211
+msgctxt "current time format on stats page"
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H:i:s"
+
+#: admin/views/db-operations.php:99
+msgid "Use this form to remove the stats for one or all ads."
+msgstr "Uporabi ta obrazec, da ostraniš statistiko iz enega ali vseh oglasov."
+
+#: admin/views/db-operations.php:97
+msgid "reset"
+msgstr "ponastavi"
+
+#: admin/views/db-operations.php:89 admin/views/db-operations.php:126
+#: admin/views/db-operations.php:177
+msgid "--all ads--"
+msgstr "--vsi oglasi--"
+
+#: admin/views/db-operations.php:87
+msgid "(please choose the ad)"
+msgstr "(prosim izberi oglas)"
+
+#: admin/views/db-operations.php:82
+msgid "Reset Stats"
+msgstr "Ponastavi statistiko"
+
+#: admin/views/db-operations.php:77
+msgid "Remove old stats to reduce the size of the database."
+msgstr "Odstrani staro statistiko, da zmanjšaš velikost podatkovne baze."
+
+#: admin/views/db-operations.php:75
+msgid "remove"
+msgstr "odstrani"
+
+#: admin/views/db-operations.php:72
+msgid "Remove old stats"
+msgstr "Odstrani stare statistike"
+
+#: admin/views/db-operations.php:66
+msgid "Export stats as CSV so you can review them later by uploading the file."
+msgstr "Izvozi statistike kot CSV, da jih lahko preveriš kasneje z naložitvijo datoteke."
+
+#: admin/views/db-operations.php:64
+msgid "download"
+msgstr "prenesi"
+
+#: admin/views/db-operations.php:60
+msgid "Export stats"
+msgstr "Izvozi statistike"
+
+#: admin/views/db-operations.php:29
+msgid "Always perform a backup of your stats tables before performing any of the operations on this page."
+msgstr "Vedno izvedi varnostno kopijo tabele statistik pred izvedbo katerekoli opreacije na tej strani."
+
+#: admin/views/db-operations.php:38
+msgid "Oldest record"
+msgstr "Najstarejši zapis"
+
+#: admin/views/db-operations.php:37
+msgid "Data size ( in kilobytes )"
+msgstr "Velikost podatkov (v kilobajtih)"
+
+#: admin/views/db-operations.php:36
+msgid "Row count"
+msgstr "Število vrstic"
+
+#: admin/views/db-operations.php:35
+msgid "Table"
+msgstr "Tabela"
+
+#. %s <code>rel="sponsored"</code>
+#: admin/views/ad_tracking_options.php:180
+msgid "Add %s to tracking links."
+msgstr "Dodaj %s sledilnim povezavam."
+
+#: admin/views/ad_tracking_options.php:142
+#: admin/views/ad_tracking_options.php:154
+#: admin/views/ad_tracking_options.php:174
+#: admin/views/ad_tracking_options.php:187
+msgid "no"
+msgstr "ne"
+
+#: admin/views/ad_tracking_options.php:139
+#: admin/views/ad_tracking_options.php:170
+msgid "yes"
+msgstr "da"
+
+#: admin/admin.php:844 admin/views/ad_tracking_options.php:133
+msgid "Add “nofollow”"
+msgstr "Dodaj \"nofollow\""
+
+#: admin/views/ad_tracking_options.php:121
+msgid "Where to open the link (if present)."
+msgstr "Kje odpreti povezavo (če je prisotna)."
+
+#: admin/views/ad_tracking_options.php:118
+msgid "new window"
+msgstr "novo okno"
+
+#: admin/views/ad_tracking_options.php:115
+#: admin/views/ad_tracking_options.php:127
+msgid "same window"
+msgstr "isto okno"
+
+#: admin/views/ad_tracking_options.php:109
+msgid "target window"
+msgstr "ciljno okno"
+
+#: admin/views/ad_tracking_options.php:15
+msgid "tracking"
+msgstr "sledenje"
+
+#: admin/views/ad-list-stats-column.php:51
+msgid "Statistics for the last 30 days"
+msgstr "Statistika za zadnjih 30 dni"
+
+#: admin/views/ad-list-stats-column.php:43
+msgid "show"
+msgstr "pokaži"
+
+#: admin/views/ad-list-stats-column.php:38
+msgid "Target url"
+msgstr "Ciljna povezava"
+
+#: public/public.php:1434
+msgid "Ad statistics for %s"
+msgstr "Statistika oglasa za %s"
+
+#: classes/ajax.php:72
+msgid "unable to read file"
+msgstr "ne morem prebrati datoteke"
+
+#: public/public.php:1496
+msgid "the last month"
+msgstr "zadnji mesec"
+
+#: public/public.php:1495 admin/views/metabox.php:155
+#: admin/views/setting_email_report_stats_period.php:2
+#: public/views/ad-stats.php:62
+msgid "last 30 days"
+msgstr "zadnjih 30 dni"
+
+#: classes/util.php:780
+msgid "View the live statistics"
+msgstr "Poglej statistiko v živo"
+
+#: classes/util.php:772 public/views/ad-stats.php:325
+msgid "Total"
+msgstr "Skupno"
+
+#: admin/admin.php:574 classes/util.php:731
+#: admin/views/ad-list-stats-column.php:32
+msgid "CTR"
+msgstr "CTR"
+
+#: classes/util.php:731
+msgid "click through rate"
+msgstr "razmerje klikov na prikaze"
+
+#: classes/util.php:721
+msgid "There is no data for the given period, yet."
+msgstr "Za izbrano obdobje še ni podatkov."
+
+#. %s is a period string.
+#: classes/util.php:715
+msgid "Ads statistics for %s"
+msgstr "Statistike oglasov za %s"
+
+#. %1$s is the ad name; %2$s a period string.
+#: classes/util.php:712
+msgid "%1$s statistics for %2$s"
+msgstr "%1$s statistike za %2$s"
+
+#: classes/util.php:616
+msgid " the last 12 months"
+msgstr "zadnjih 12 mesecev"
+
+#: classes/util.php:615
+msgid " the last month"
+msgstr "zadnji mesec"
+
+#: classes/util.php:614
+msgid " the last 30 days"
+msgstr "zadnjih 30 dni"
+
+#: classes/db-operations.php:668 admin/views/stats.php:120
+#: public/views/ad-stats.php:75
+msgid "to"
+msgstr "do"
+
+#: classes/db-operations.php:667 admin/views/stats.php:119
+#: public/views/ad-stats.php:74
+msgid "from"
+msgstr "od"
+
+#: classes/db-operations.php:48 classes/db-operations.php:648
+#: public/public.php:1497 admin/views/metabox.php:157
+#: admin/views/setting_email_report_stats_period.php:4
+#: public/views/ad-stats.php:64
+msgid "last 12 months"
+msgstr "zadnjih 12 mesecev"
+
+#: classes/db-operations.php:45 classes/db-operations.php:52
+msgid "first 6 months"
+msgstr "prvih 6 mesecev"
+
+#: classes/db-operations.php:44 classes/db-operations.php:51
+msgid "everything before this year"
+msgstr "vse, pred tem letom"
+
+#: classes/ajax.php:621
+msgid "This base name collides with an existing blog post category"
+msgstr "Ta osnova se križa z obstoječo kategorijo prispevkov"
+
+#: classes/ajax.php:619
+msgid "This base name collides with an existing blog post tag"
+msgstr "Ta osnova se križa z obstoječo oznako prispevkov"
+
+#: classes/ajax.php:617
+msgid "This base name collides with an existing link category"
+msgstr "Ta osnova se križa z obstoječo kategorijo opovezav"
+
+#: classes/ajax.php:615
+msgid "This base name collides with an existing WordPress content (blog post, page or any public custom content)"
+msgstr "Ta osnova se križa z obstoječo vsebino WordPressa (prispevek, strani ali kakršnakoli javna vsebina po meri)"
+
+#: classes/ajax.php:376 classes/ajax.php:544
+msgctxt "format for week group in stats table"
+msgid "from %b&nbsp;%#d"
+msgstr "od %b&nbsp;%#d"
+
+#. %d is the ad_id
+#: classes/db-operations.php:156
+msgid "Impressions and clicks for ad ID %d removed."
+msgstr "Prikazi in kliki za oglas %d so bili odstranjeni."
+
+#: classes/db-operations.php:147
+msgid "No stats removed."
+msgstr "Nobena statistika ni bila odstranjena."
+
+#: classes/db-operations.php:141
+msgid "All impressions and clicks removed."
+msgstr "Vsi prikazi in kliki so bili odstranjeni."
+
+#: admin/admin.php:1286 classes/ajax.php:424
+msgctxt "date format on stats page"
+msgid "Y-m"
+msgstr "Y-m"
+
+#: admin/admin.php:1286 classes/ajax.php:424
+msgid "month"
+msgstr "mesec"
+
+#: admin/admin.php:1285 classes/ajax.php:423
+msgid "week"
+msgstr "teden"
+
+#: admin/admin.php:1284 admin/admin.php:1285 classes/ajax.php:422
+#: classes/ajax.php:423
+msgctxt "date format on stats page"
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: admin/admin.php:1284 classes/ajax.php:422
+msgid "day"
+msgstr "dan"
+
+#: admin/admin.php:1279 classes/db-operations.php:664
+#: public/views/ad-stats.php:65
+msgid "custom"
+msgstr "po meri"
+
+#: admin/admin.php:1277 classes/db-operations.php:49
+#: classes/db-operations.php:649
+msgid "last year"
+msgstr "prejšnje leto"
+
+#: admin/admin.php:1276 classes/db-operations.php:50
+#: classes/db-operations.php:650
+msgid "this year"
+msgstr "letos"
+
+#: admin/admin.php:1275 admin/views/metabox.php:156
+#: admin/views/setting_email_report_stats_period.php:3
+#: public/views/ad-stats.php:63
+msgid "last month"
+msgstr "prejšnji mesec"
+
+#: admin/admin.php:1274
+msgid "this month"
+msgstr "ta mesec"
+
+#: admin/admin.php:1273
+msgid "last 7 days"
+msgstr "zadnjih 7 dni"
+
+#: admin/admin.php:1272
+msgid "yesterday"
+msgstr "včeraj"
+
+#: admin/admin.php:1271
+msgid "today"
+msgstr "danes"
+
+#: admin/admin.php:1125
+msgid "Add <code>target=\"_blank\"</code> to the ad code in order to open it in a new window. E.g. <code>&lt;a href=\"%link%\" target=\"_blank\"&gt;</code>"
+msgstr "Kodi oglasa dodaj <code>target=\"_blank\"</code>, da ga odpre v novem oknu. Npr. <code>&lt;a href=\"%link%\" target=\"_blank\"&gt;</code>"
+
+#: admin/admin.php:1076 classes/plugin.php:374
+#: admin/views/setting_everything.php:5
+msgid "clicks only"
+msgstr "le klike"
+
+#: admin/admin.php:1077 classes/plugin.php:373
+#: admin/views/setting_everything.php:4
+msgid "impressions only"
+msgstr "le prikaze"
+
+#: admin/admin.php:1078 classes/plugin.php:375
+#: admin/views/setting_everything.php:2
+msgid "impressions & clicks"
+msgstr "prikaze in klike"
+
+#: admin/admin.php:1072 classes/plugin.php:368 classes/plugin.php:379
+msgid "disabled"
+msgstr "onemogočeno"
+
+#: admin/admin.php:1071 admin/views/ad_tracking_options.php:112
+#: admin/views/ad_tracking_options.php:136
+#: admin/views/ad_tracking_options.php:166
+msgid "default"
+msgstr "privzeto"
+
+#: admin/admin.php:1029 admin/admin.php:1824
+msgid "Ads Statistics"
+msgstr "Statistike oglasov"
+
+#: admin/admin.php:972
+msgid "Send test email"
+msgstr "Pošlji testno e-pošto"
+
+#: admin/admin.php:962
+msgid "Email subject"
+msgstr "Zadeva e-pošte"
+
+#: admin/admin.php:952
+msgid "From address"
+msgstr "E-pošta pošiljatelja"
+
+#: admin/admin.php:942
+msgid "From name"
+msgstr "Ime pošiljatelja"
+
+#: admin/admin.php:932
+msgid "Statistics period"
+msgstr "Obdobje statistike"
+
+#: admin/admin.php:922
+msgid "Frequency"
+msgstr "Frekvenca"
+
+#: admin/admin.php:912
+msgid "Recipients"
+msgstr "Prejemniki"
+
+#: admin/admin.php:903
+msgid "Delete data on uninstall"
+msgstr "Izbriši podatke ob odmestitvi"
+
+#: admin/admin.php:893
+msgid "Track bots"
+msgstr "Beleži robote"
+
+#: admin/admin.php:880
+msgid "Link base for public reports"
+msgstr "Osnova povezave za javna poročila"
+
+#: admin/admin.php:871
+msgid "Click-link base"
+msgstr "Osnova povezave klika"
+
+#: admin/admin.php:836
+msgid "What to track by default"
+msgstr "Kaj slediti privzeto"
+
+#: admin/admin.php:825 admin/views/setting_method.php:20
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/admin.php:816
+msgid "Choose tracking method"
+msgstr "Izberi metodo sledenja"
+
+#: admin/admin.php:791
+msgid "Email Reports"
+msgstr "E-poštna poročila"
+
+#: admin/admin.php:783 admin/admin.php:807 admin/admin.php:1865
+msgid "Tracking"
+msgstr "Sledenje"
+
+#: admin/admin.php:634
+msgid "Data were compressed but the tracking tables can not be optimized automatically. Please ask the server&#39;s admin on how to proceed."
+msgstr "Podatki so bili stisnjeni, toda sledilne table ne morem optimizirati avtomatično. Prosim vprašaj administratorja strežnika, kako nadaljevati. "
+
+#: admin/admin.php:633
+msgid "The plugin was not able to perform some requests on the database"
+msgstr "Vtičniku ni uspelo izvesti nekaj zahtev na podatkovni bazi"
+
+#: admin/admin.php:632
+msgid "Are you sure you want to reset the stats for"
+msgstr "Si prepričan, da želiš ponastaviti statistiko za"
+
+#: admin/admin.php:631
+msgid "Please choose an ad"
+msgstr "Prosim izberi oglas"
+
+#: admin/admin.php:629
+msgid "The server failed to respond to your request."
+msgstr "Strežnik se ni uspel odzvati na tvojo zahtevo."
+
+#: admin/admin.php:615
+msgid "email not sent. Please check your server configuration"
+msgstr "e-pošta ni bila poslana. Prosim preveri nastavitve strežnika"
+
+#: admin/admin.php:614
+msgid "email sent"
+msgstr "e-pošta poslana"
+
+#: admin/admin.php:613
+msgid "Link structure available."
+msgstr "Struktura povezave je na voljo."
+
+#: admin/admin.php:612
+msgid "An unexpected error occurred. Link structure not available."
+msgstr "Prišlo je do nepričakovane napake. Struktura povezave ni na voljo."
+
+#: admin/admin.php:611
+msgid "The server failed to respond to your request. Link structure not available."
+msgstr "Strežnik se ni uspel odzvati na tvojo zahtevo. Struktura povezave ni na voljo."
+
+#: admin/admin.php:594
+msgid "No stats found in file"
+msgstr "Ne najdem statistike v dokumentu"
+
+#: admin/admin.php:592
+msgid "stats from %1$s to %2$s"
+msgstr "statistika od %1$s do %2$s"
+
+#: admin/admin.php:591 admin/admin.php:630
+msgid "An unexpected error occurred."
+msgstr "Prišlo je do nepričakovane napake."
+
+#: admin/admin.php:584
+msgid "group"
+msgstr "skupina"
+
+#: admin/admin.php:583 admin/views/stats.php:162
+msgid "no file selected"
+msgstr "nobena datoteka ni izbrana"
+
+#: admin/admin.php:582
+msgid "One or more invalid records have been found in the database"
+msgstr "Eden ali več nepravilnih zapisov je bilo najdenih v podatkovni bazi"
+
+#: admin/admin.php:581
+msgid "Some fields are missing for the custom period"
+msgstr "Nekatera polja manjkajo iz obdobja po meri"
+
+#: admin/admin.php:580 admin/admin.php:593 admin/views/db-operations.php:67
+msgid "The period you have chosen is not consistent"
+msgstr "Obdobje, ki si ga izbral, ni konsistentno"
+
+#: admin/admin.php:579
+msgid "There is no record for this period :("
+msgstr "Ni zapisov za to obdobje :("
+
+#: admin/admin.php:578
+msgid "total"
+msgstr "skupno"
+
+#: admin/admin.php:577
+msgid "%1$s to %2$s"
+msgstr "%1$s do %2$s"
+
+#: admin/admin.php:576 classes/util.php:727 public/views/ad-stats.php:276
+msgid "date"
+msgstr "datum"
+
+#: admin/admin.php:575
+msgid "deleted ads"
+msgstr "izbrisani oglasi"
+
+#: public/views/ad-stats.php:279
+msgid "ctr"
+msgstr "ctr"
+
+#: admin/admin.php:573
+msgid "ad"
+msgstr "oglas"
+
+#: admin/admin.php:572
+msgid "There is no data for %1$s to %2$s"
+msgstr "Ni podatkov za %1$s do %2$s"
+
+#: admin/admin.php:571
+msgid "impressions from %1$s to %2$s"
+msgstr "prikazi za %1$s do %2$s"
+
+#: admin/admin.php:570
+msgid "clicks from %1$s to %2$s"
+msgstr "kliki od %1$s do %2$s"
+
+#: admin/admin.php:569 admin/admin.php:596
+msgid "next %d days"
+msgstr "naslednjih %d dni"
+
+#: admin/admin.php:568 admin/admin.php:595
+msgid "previous %d days"
+msgstr "prejšnjih %d dni"
+
+#: admin/admin.php:567
+msgid "next year"
+msgstr "naslednje leto"
+
+#: admin/admin.php:566
+msgid "previous year"
+msgstr "prejšnje leto"
+
+#: admin/admin.php:565 admin/admin.php:598
+msgid "next month"
+msgstr "naslednji mesec"
+
+#: admin/admin.php:564 admin/admin.php:597
+msgid "previous month"
+msgstr "prejšnji mesec"
+
+#: admin/admin.php:563
+msgid "next day"
+msgstr "naslednji dan"
+
+#: admin/admin.php:562
+msgid "previous day"
+msgstr "prejšnji dan"
+
+#: admin/admin.php:561 classes/amp.php:104 public/public.php:862
+#: admin/views/ad-list-stats-column.php:24
+msgid "Impressions"
+msgstr "Prikazi"
+
+#: admin/admin.php:560
+msgid "impressions for \"%s\""
+msgstr "prikazi za \"%s\""
+
+#: admin/admin.php:558 public/public.php:863
+#: admin/views/ad-list-stats-column.php:29
+msgid "Clicks"
+msgstr "Kliki"
+
+#: admin/admin.php:557
+msgid "clicks for \"%s\""
+msgstr "kliki za \"%s\""
+
+#: admin/admin.php:549
+msgid "invalid file type"
+msgstr "neveljavna vrsta datoteke"
+
+#: admin/admin.php:547
+msgid "Select file"
+msgstr "Izberi datoteko"
+
+#: admin/admin.php:519 admin/admin.php:556 classes/util.php:729
+#: admin/views/db-operations.php:49 admin/views/metabox-limiter.php:42
+#: admin/views/metabox-limiter.php:79 admin/views/stats.php:229
+#: public/views/ad-stats.php:212 public/views/ad-stats.php:250
+#: public/views/ad-stats.php:256 public/views/ad-stats.php:270
+#: public/views/ad-stats.php:278
+msgid "clicks"
+msgstr "kliki"
+
+#: admin/admin.php:518 admin/admin.php:559 classes/util.php:728
+#: admin/views/db-operations.php:43 admin/views/metabox-limiter.php:31
+#: admin/views/metabox-limiter.php:74 admin/views/stats.php:224
+#: public/views/ad-stats.php:206 public/views/ad-stats.php:240
+#: public/views/ad-stats.php:245 public/views/ad-stats.php:266
+#: public/views/ad-stats.php:277
+msgid "impressions"
+msgstr "prikazi"
+
+#: admin/admin.php:366 admin/admin.php:652 admin/admin.php:1213
+#: admin/admin.php:1214
+msgid "Statistics"
+msgstr "Statistika"
+
+#: admin/admin.php:276
+msgid ": activate to sort column descending"
+msgstr ": aktiviraj za sortiranje stolpca spuščajoče"
+
+#: admin/admin.php:275
+msgid ": activate to sort column ascending"
+msgstr ": aktiviraj za sortiranje stolpca rastoče"
+
+#: admin/admin.php:272
+msgid "last"
+msgstr "zadnji"
+
+#: admin/admin.php:271
+msgid "next"
+msgstr "naslednji"
+
+#: admin/admin.php:270
+msgid "previous"
+msgstr "prejšnji"
+
+#: admin/admin.php:269
+msgid "first"
+msgstr "prvi"
+
+#: admin/admin.php:267
+msgid "no data available in table"
+msgstr "v tabeli ni na voljo podatkov"
+
+#: admin/admin.php:266
+msgid "no matching records found"
+msgstr "ne najdem ujemajočih zapisov"
+
+#: admin/admin.php:265
+msgid "Loading..."
+msgstr "Nalagam ..."
+
+#: admin/admin.php:263
+msgid "filtered from _MAX_ total entries"
+msgstr "filtrirano iz _MAX_ skupnih vnosov"
+
+#: admin/admin.php:262
+msgid "no element to show"
+msgstr "ni elementov za prikaz"
+
+#: admin/admin.php:261
+msgid "showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "prikazujem _START_ do _END_ od _TOTAL_ vnosov"
+
+#: admin/admin.php:260
+msgid "show _MENU_ entries"
+msgstr "pokaži _MENU_ vnosov"
+
+#: admin/admin.php:259
+msgid "search:"
+msgstr "iskanje:"
+
+#: admin/admin.php:258
+msgid "processing..."
+msgstr "obdelujem ..."
+
+#: admin/admin.php:1222
+msgid "Tracking database"
+msgstr "Podatkovna baza sledenja"

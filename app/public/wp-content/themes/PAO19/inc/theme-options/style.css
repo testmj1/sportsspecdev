@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: inherit;
+}
+#wiser_option_area {
+    margin: 20px 0;
+    padding: 10px 50px 10px 0;
+}
+#wiser_option_area a:hover,
+#wiser_option_area a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#wiser_option_area h1 {
+    margin: 10px 0 30px 0;
+}
+#wiser_option_content {
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+#wiser_option_content tr {
+    vertical-align: top;
+}
+#wiser_option_area .wiser_option_fields_div {
+    float: left;
+    padding: 20px 20px;
+}
+
+#wiser_option_area .wiser_option_sections {
+    background-color: #F6F6F6;
+    margin: 0;
+    padding: 0;
+}
+#wiser_option_area .wiser_option_sections ul {
+    display: block;
+    height: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+#wiser_option_area .wiser_option_sections ul > li {
+    border: 0 none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#wiser_option_area .wiser_option_sections ul > li > a {
+    border: 0 none;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding: 10px 15px;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #FFFFFF;
+}
+
+#wiser_option_area .wiser_option_sections ul > li:hover > a {
+    color: #000000;
+}
+#wiser_option_area .wiser_option_sections ul > li > a.active {
+    background: #007AFF;
+    color: #fff;
+    border-color: transparent;
+}
+#wiser_option_area .wiser_option_sections ul > li > a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.wiser_option_field_div {
+    border-bottom: 1px solid #e9eaee;
+    margin: 10px 0 20px;
+    padding-bottom: 20px;
+
+}
+.wiser_option_field_div label {
+    display: block;
+    margin: 2px 0 2px;
+    font-size: 16px;
+}
+
+.wiser_option_field_div .subtitle {
+    padding: 0;
+}
+.wiser_option_field_div .description,
+.wiser_option_field_div .subtitle {
+    font-size: 13px;
+    font-style: italic;
+    margin: 4px 0 10px;
+}
+.wiser_option_field_div span.description {
+}
+.i_wiser_section_content {
+    /*display: none;
+    opacity: 0;
+    transition: all ease 0.7s;*/
+
+    transition: opacity 0.7s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+.i_wiser_section_content.active {
+    display: block;
+
+    height: auto;
+    opacity: 1;
+}
+
+
+#wiser_option_area .submit {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.i_input {
+    width: 70%;
+    max-width: 99%;
+    min-width: 350px;
+}
+input.i_checkbox {
+    margin: 2px 5px 2px 0;
+}
+.i_preview_img {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    height: auto;
+    margin: 10px 0;
+    max-height: 200px;
+    max-width: 300px;
+    padding: 2px;
+    width: auto;
+}
+.i_hidden {
+    visibility: hidden;
+}
+.line_break {
+    border-bottom: 1px solid #e9eaee;
+}
+#featured-posts-list {
+    list-style: decimal;
+}
+.i_add_featured_post {
+    display: table;
+    margin: 20px 0 10px;
+}
+
+.i_add_featured_post:hover,
+.i_remove_feature_post:hover {
+    text-decoration: none;
+}
+.i_dragicon {
+    margin: 5px;
+}
+#wiser_option_area .wp-color-result {
+    height: auto;
+}

@@ -1,0 +1,1281 @@
+# Translation of Ad Tracking in Greek
+# This file is distributed under the same license as the Ad Tracking package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-28 06:54:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0\n"
+"Language: el_GR\n"
+"Project-Id-Version: Ad Tracking\n"
+
+#. %1$s is the default value ("yes" or "no")
+#: admin/views/ad_tracking_options.php:119
+#: admin/views/ad_tracking_options.php:152
+msgid "It is \"%1$s\" by default. You can change this in the Tracking settings."
+msgstr "Είναι \"%1$s\" από προεπιλογή. Μπορείτε να το αλλάξετε στις ρυθμίσεις παρακολούθησης."
+
+#: admin/admin.php:645
+msgid "<a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=edit-ad-reports-google-analytics\" target=\"_blank\">How to share Google Analytics ad reports with your customers.</a>"
+msgstr "<a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=edit-ad-reports-google-analytics\" target=\"_blank\">Πώς να μοιράζεστε τις αναφορές διαφημίσεων του Google Analytics με τους πελάτες σας.</a>"
+
+#: admin/admin.php:1532
+msgid " <a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=settings-reports-google-analytics\" target=\"_blank\">How to share Google Analytics ad reports with your customers.</a>"
+msgstr " <a href=\"https://wpadvancedads.com/share-custom-reports-google-analytics/?utm_source=advanced-ads&utm_medium=link&utm_campaign=settings-reports-google-analytics\" target=\"_blank\">Πώς να μοιράζεστε τις αναφορές διαφημίσεων του Google Analytics με τους πελάτες σας.</a>"
+
+#: admin/views/ad_tracking_options.php:26
+msgid "Target URL"
+msgstr "Στόχος URL"
+
+#: admin/views/ad_tracking_options.php:49
+msgid "Links your ad to the target URL."
+msgstr "Συνδέει τη διαφήμισή σας με τη διεύθυνση στόχου URL."
+
+#: admin/views/ad_tracking_options.php:52
+msgid "If the ad code contains an <code>&lt;a&gt;</code> tag with a link target, copy the URL into the Target URL field and add <code>\"%link%\"</code> to your ad code."
+msgstr "Εάν ο κώδικας διαφήμισης περιέχει μια ετικέτα <code>&lt;a&gt;</code> με στόχο συνδέσμου, αντιγράψτε τη διεύθυνση URL στο πεδίο στόχου URL και προσθέστε <code>\"%link%\"</code> στον κώδικα διαφήμισής σας."
+
+#. %1$s is the opening link tag, %2$s is the closing link tag.
+#: admin/views/stats.php:78
+msgid "You are currently tracking ads with Google Analytics. The statistics can be viewed only within your %1$sAnalytics account%2$s."
+msgstr "Αυτήν τη στιγμή παρακολουθείτε διαφημίσεις με το Google Analytics. Τα στατιστικά στοιχεία μπορούν να προβληθούν μόνο στον λογαριασμό σας %1$sAnalytics%2$s."
+
+#. %s is an inline code snippet
+#: admin/views/ad_tracking_options.php:35
+msgid "If you enable the link cloaking option, please replace the links you want to track in the ad code with the tracking placeholder (%s). Otherwise, Advanced Ads will not record clicks on this ad."
+msgstr "Εάν ενεργοποιήσετε την επιλογή απόκρυψης συνδέσμων, αντικαταστήστε τους συνδέσμους που θέλετε να παρακολουθήσετε στον κώδικα διαφήμισης με το σύμβολο κράτησης θέσης παρακολούθησης (%s). Διαφορετικά, το Advanced Ads δεν θα καταγράφει κλικ σε αυτήν τη διαφήμιση."
+
+#: admin/views/ad_tracking_options.php:31
+msgid "Based on your configuration, it seems that you do not need to specify an external link. You can leave the URL field empty."
+msgstr "Με βάση τη διαμόρφωσή σας, φαίνεται ότι δεν χρειάζεται να καθορίσετε έναν εξωτερικό σύνδεσμο. Μπορείτε να αφήσετε κενό το πεδίο URL."
+
+#: admin/views/setting_method.php:34
+msgid "Should only be used by experienced users."
+msgstr "Πρέπει να χρησιμοποιείται μόνο από έμπειρους χρήστες."
+
+#: admin/views/setting_ga.php:12
+msgid "One or more Google Analytics properties to which you want the data to be sent. Separate multiple properties with commas."
+msgstr "Μία ή περισσότερες ιδιοκτησίες Google Analytics στις οποίες θέλετε να αποστέλλονται τα δεδομένα. Διαχωρίστε πολλές ιδιότητες με κόμματα."
+
+#: admin/views/stats.php:239
+msgid "Statistics by date"
+msgstr "Στατιστικά κατά ημερομηνία"
+
+#: admin/views/stats.php:245
+msgid "Statistics by ad"
+msgstr "Στατιστικά ανά διαφήμιση"
+
+#: admin/views/stats.php:87
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: admin/views/stats.php:89
+msgid "Database management"
+msgstr "Διαχείρηση βάσης δεδομένων"
+
+#. 1: is <code>ajax-handler.php</code>, 2: is the opening link to the
+#. documentation, 3: closing link tag
+#: classes/installer.php:353
+msgid "You can find more information about the %1$s and fallback method %2$sin the documentation%3$s."
+msgstr "Μπορείτε να βρείτε περισσότερες πληροφορίες σχετικά με την %1$s και την εναλλακτική μέθοδο %2$sστην τεκμηρίωση%3$s."
+
+#. 1: <code>wp-config.php</code> 2: <code>define(
+#. 'ADVANCED_ADS_TRACKING_LEGACY_AJAX', true )</code>
+#: classes/installer.php:351
+msgid "To make this change permanent, please add the following to your %1$s: %2$s."
+msgstr "Για να κάνετε αυτήν την αλλαγή μόνιμη, προσθέστε τα ακόλουθα στο %1$s: %2$s."
+
+#. %s is <code>wp-admin/admin-ajax.php</code>
+#: classes/installer.php:347
+msgid "Falling back to %s."
+msgstr "Επιστροφή στο %s."
+
+#: classes/installer.php:342
+msgid "Please send us the following output:"
+msgstr "Στείλτε μας την ακόλουθη έξοδο:"
+
+#: classes/installer.php:339
+msgid "The Advanced Ads AJAX tracking drop-in created unexpected output and has been removed."
+msgstr "Το αναπτυσσόμενο μενού παρακολούθησης Advanced Ads AJAX δημιούργησε απροσδόκητα αποτελέσματα και καταργήθηκε."
+
+#. 1: is an example id for Universal Analytics <code>UA-123456-1</code>, 2: is
+#. an example id for GA4 '<code>G-A12BC3D456</code>'
+#: admin/views/setting_ga.php:17
+msgid "%1$s for Universal Analytics or %2$s for Google Analytics 4."
+msgstr "%1$s για το Universal Analytics ή %2$s για το Google Analytics 4."
+
+#: classes/db-operations.php:86 admin/views/db-operations.php:200
+msgid "The debug log file can't be written."
+msgstr "Το αρχείο καταγραφής εντοπισμού σφαλμάτων δεν μπορεί να γραφτεί."
+
+#: admin/views/db-operations.php:249
+msgid "Successfully deleted debug log file."
+msgstr "Το αρχείο καταγραφής εντοπισμού σφαλμάτων διαγράφηκε με επιτυχία."
+
+#. placeholder is path to WP_CONTENT_DIR
+#: classes/db-operations.php:89 admin/views/db-operations.php:203
+msgid " Please make sure the directory %s is writable"
+msgstr "Βεβαιωθείτε ότι ο κατάλογος %s είναι εγγράψιμος"
+
+#: classes/db-operations.php:80
+msgid "Can't delete debugging option"
+msgstr "Δεν είναι δυνατή η διαγραφή της επιλογής εντοπισμού σφαλμάτων"
+
+#: classes/db-operations.php:103
+msgid "Can't save debugging option"
+msgstr "Δεν είναι δυνατή η αποθήκευση της επιλογής εντοπισμού σφαλμάτων"
+
+#. 1: opening a-tag with link to settings page 2: closing a-tag
+#: classes/plugin.php:135
+msgid "You have selected to track ads with Google Analytics but not provided a tracking ID. Please add the Google Analytics UID %1$shere%2$s"
+msgstr "Επιλέξατε να παρακολουθείτε διαφημίσεις με το Google Analytics, αλλά δεν παρείχατε αναγνωριστικό παρακολούθησης. Προσθέστε το UID του Google Analytics %1$sεδώ%2$s"
+
+#: admin/admin.php:1036
+msgid "Use the <code>URL field</code> or remove <code>%link%</code> parameter from your editor."
+msgstr "Χρησιμοποιήστε το <code>πεδίο URL</code> ή καταργήστε την παράμετρο <code>%link%</code> από το πρόγραμμα επεξεργασίας σας."
+
+#: admin/views/setting_method.php:33
+msgid "Track impressions when the ad is requested from the database."
+msgstr "Παρακολούθηση εμφανίσεων όταν ζητείται η διαφήμιση από τη βάση δεδομένων."
+
+#: admin/views/setting_method.php:17
+msgid "Track impressions after the ad was loaded in the frontend."
+msgstr "Παρακολουθήστε τις εμφανίσεις μετά τη φόρτωση της διαφήμισης στο frontend."
+
+#: admin/views/metabox-limiter.php:24
+msgid "this hour"
+msgstr "αυτή την ώρα"
+
+#. %s is the filter name wrapped in <code> tags.
+#: admin/views/ad_tracking_options.php:78
+msgid "The value for link cloaking is defined for all ads by the %s filter."
+msgstr "Η τιμή για απόκρυψη συνδέσμων καθορίζεται για όλες τις διαφημίσεις από το φίλτρο %s."
+
+#: admin/views/metabox-limiter.php:86
+msgid "The overall goals for impressions and clicks have been reached."
+msgstr "Οι γενικοί στόχοι για εμφανίσεις και κλικ έχουν επιτευχθεί."
+
+#: admin/views/metabox-limiter.php:90
+msgid "The overall goal for impressions has been reached."
+msgstr "Ο γενικός στόχος για τις εμφανίσεις έχει επιτευχθεί."
+
+#: admin/views/metabox-limiter.php:88
+msgid "The overall goal for clicks has been reached."
+msgstr "Ο συνολικός στόχος για κλικ έχει επιτευχθεί."
+
+#: admin/admin.php:652
+msgid "The number of impressions and clicks can vary from those in your AdSense account."
+msgstr "Ο αριθμός των εμφανίσεων και των κλικ μπορεί να διαφέρει από αυτούς στον λογαριασμό σας στο AdSense."
+
+#. ADVANCED_ADS_TRACKING_NO_HOURLY_LIMIT constant name in <code> tag
+#: admin/views/metabox-limiter.php:103
+msgid "The constant %s is set to true."
+msgstr "Η σταθερά %s έχει οριστεί σε true."
+
+#: admin/views/setting_method.php:58
+msgid "The advanced-ads-tracking-load-header-scripts filter is set to false which removes any tracking scripts in the frontend. Only the Database tracking method is working now."
+msgstr "Το φίλτρο advanced-ads-tracking-load-header-scripts φίλτρου έχει οριστεί σε false, το οποίο καταργεί τυχόν σενάρια παρακολούθησης στο frontend. Μόνο η μέθοδος παρακολούθησης της βάσης δεδομένων λειτουργεί τώρα."
+
+#. impressions, clicks, or impressions or clicks
+#: admin/views/metabox-limiter.php:94
+msgid "The ad %s will be delivered as soon as possible."
+msgstr "Η διαφήμιση %s θα παραδοθεί το συντομότερο δυνατό."
+
+#: addon-init.php:119
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/views/metabox-limiter.php:108
+msgid "Set an expiry date in the <em>Publish</em> meta box to spread impressions over a period."
+msgstr "Ορίστε μια ημερομηνία λήξης στο μετα-πλαίσιο <em>Δημοσίευση</em> για να κατανείμετε τις εμφανίσεις σε μια περίοδο."
+
+#: admin/views/metabox.php:112
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: admin/views/setting_sponsored.php:18
+msgid "Read Google's recommendation on Google Webmaster Central Blog."
+msgstr "Διαβάστε τη σύσταση της Google στο Google Webmaster Central Blog."
+
+#. 1: WP_CONTENT_DIR 2: <code>wp-config.php</code> 3: <code>define(
+#. 'ADVANCED_ADS_TRACKING_LEGACY_AJAX', true )</code>
+#: classes/installer.php:156
+msgid "Please make sure the directory %1$s is writable or add the following to your %2$s: %3$s."
+msgstr "Βεβαιωθείτε ότι ο κατάλογος %1$s είναι εγγράψιμος ή προσθέστε τα ακόλουθα στο %2$s: %3$s."
+
+#: admin/views/metabox.php:159
+#: admin/views/setting_email_report_stats_period.php:6
+msgid "Period used in the report"
+msgstr "Περίοδος που χρησιμοποιείται στην αναφορά"
+
+#: admin/views/setting_linkbase.php:10
+msgid "Pattern of the click-tracking URL if link cloaking is used. Should not collide with any posts or pages. Use chars: a-z/-"
+msgstr "Μοτίβο της διεύθυνσης URL παρακολούθησης κλικ, εάν χρησιμοποιείται απόκρυψη σύνδεσης. Δεν πρέπει να συγκρούεται με οποιεσδήποτε αναρτήσεις ή σελίδες. Χρησιμοποιήστε χαρακτήρες: a-z/-"
+
+#: admin/views/metabox-limiter.php:21
+msgid "overall"
+msgstr "συνολικά"
+
+#. %d is the ad_id
+#: classes/db-operations.php:149
+msgid "No stats for ad ID %d removed."
+msgstr "Δεν καταργήθηκαν στατιστικά στοιχεία για το αναγνωριστικό διαφήμισης %d."
+
+#: admin/admin.php:654 admin/views/ad_tracking_options.php:22
+#: admin/views/ad_tracking_options.php:39
+#: admin/views/ad_tracking_options.php:46 admin/views/metabox-limiter.php:57
+#: admin/views/setting_method.php:22 admin/views/setting_method.php:35
+msgid "Manual"
+msgstr "Εγχειρίδιο"
+
+#: admin/views/db-operations.php:233
+msgid "Logs more information about tracked data for %d hours starting now."
+msgstr "Καταγράφει περισσότερες πληροφορίες σχετικά με δεδομένα παρακολούθησης για %d ώρες από τώρα."
+
+#: admin/admin.php:403
+msgid "Install Now"
+msgstr "Εγκατάσταση Τώρα"
+
+#: admin/views/setting_method.php:40
+msgid "Impression tracking is not working on AMP sites without SSL encryption."
+msgstr "Η παρακολούθηση εμφανίσεων δεν λειτουργεί σε ιστότοπους AMP χωρίς κρυπτογράφηση SSL."
+
+#: admin/views/metabox-limiter.php:23
+msgid "hourly limit"
+msgstr "ωριαίο όριο"
+
+#: admin/views/setting_method.php:14
+msgid "Frontend"
+msgstr "Frontend"
+
+#: admin/views/setting_method.php:30
+msgid "experienced users"
+msgstr "έμπειρους χρήστες"
+
+#. <code>ADVANCED_ADS_TRACKING_DEBUG</code>
+#: admin/views/db-operations.php:173
+msgid "Debugging is prohibited through the constant %s"
+msgstr "Ο εντοπισμός σφαλμάτων απαγορεύεται μέσω της σταθεράς %s"
+
+#. 1: name of the add (or all ads), 2: amount of hours, 3: amount of minutes
+#: admin/views/db-operations.php:211
+msgid "Debugging %1$s for another %2$s and %3$s."
+msgstr "Εντοπισμός σφαλμάτων %1$s για άλλα %2$s και %3$s."
+
+#. %s is the URL displayed in the frontend, wrapped in <code> tags.
+#: admin/views/ad_tracking_options.php:65
+msgid "Cloak your link. The link will be displayed as %s."
+msgstr "Απόκρυψη του συνδέσμου σας. Ο σύνδεσμος θα εμφανίζεται ως %s."
+
+#: admin/admin.php:778 admin/views/ad_tracking_options.php:128
+msgid "Add “sponsored”"
+msgstr "Προσθήκη \"με χορηγία\""
+
+#: admin/views/ad_tracking_options.php:113
+msgid "Add <code>rel=\"nofollow\"</code> to tracking links."
+msgstr "Προσθέστε <code>rel=\"nofollow\"</code> σε συνδέσμους παρακολούθησης."
+
+#. %s is <code>rel="nofollow"</code>
+#. %s is <code>rel="sponsored"</code>
+#: admin/views/setting_nofollow.php:13 admin/views/setting_sponsored.php:13
+msgid "Add %s to programatically created links."
+msgstr "Προσθέστε %s σε συνδέσμους που δημιουργήθηκαν μέσω προγραμματισμού."
+
+#: admin/admin.php:396
+msgid "Activate Now"
+msgstr "Ενεργοποίηση τώρα"
+
+#. %s is name of the ad.
+#: admin/views/db-operations.php:196
+msgid "<code>ADVANCED_ADS_TRACKING_DEBUG</code> constant is set: Debugging %s."
+msgstr "Η σταθερά <code>ADVANCED_ADS_TRACKING_DEBUG</code> έχει οριστεί: Εντοπισμός σφαλμάτων %s."
+
+#: admin/views/db-operations.php:214
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "Ενικός αριθμός: %d λεπτό"
+msgstr[1] "Πληθυντικός: %d λεπτά"
+
+#: admin/views/db-operations.php:213
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "Ενικός: %d ώρα"
+msgstr[1] "Πληθυντικός: %d ώρες"
+
+#. 1: this plugins' name, 2: link to main plugin
+#: admin/admin.php:410
+msgid "%1$s requires the %2$s plugin to be installed and activated on your site."
+msgstr "Το %1$s απαιτεί την εγκατάσταση και την ενεργοποίηση της προσθήκης %2$s στον ιστότοπό σας."
+
+#: admin/views/setting_method.php:50
+msgid "Please choose either the Frontend or Google Analytics method."
+msgstr "Επιλέξτε είτε τη μέθοδο Frontend είτε τη μέθοδο Google Analytics."
+
+#: admin/admin.php:1984
+msgid "The selected tracking method is not compatible with the TCF 2.0 integration."
+msgstr "Η επιλεγμένη μέθοδος παρακολούθησης δεν είναι συμβατή με την ενσωμάτωση TCF 2.0."
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: admin/admin.php:788
+msgid "Database Management"
+msgstr "Διαχείρηση βάσης δεδομένων"
+
+#: admin/admin.php:725
+msgid "Advanced"
+msgstr "Προχωρημένος"
+
+#: admin/views/deleted-ads-form.php:48
+msgid "Failing to delete the log file."
+msgstr "Αποτυχία διαγραφής του αρχείου καταγραφής."
+
+#: admin/views/db-operations.php:269
+msgid "delete the file"
+msgstr "διαγράψτε το αρχείο"
+
+#: admin/views/db-operations.php:257
+msgid "View the tracking %1$sdebug log file%2$s"
+msgstr "Προβολή της παρακαλούθησης %1$sτου αρχείου καταγραφής%2$s"
+
+#: admin/views/db-operations.php:232
+msgid "enable"
+msgstr "ενεργοποίηση"
+
+#: admin/views/db-operations.php:221
+msgid "disable"
+msgstr "απενεργοποίηση"
+
+#: admin/views/db-operations.php:165
+msgid "Debug mode"
+msgstr "Λειτουργία εντοπισμού σφαλμάτων"
+
+#: admin/views/db-operations.php:142
+msgid "--deleted ads--"
+msgstr "--διαγραμμένες διαφημίσεις--"
+
+#: admin/views/metabox-limiter.php:119
+msgid "The impressions goal for the current hour has been reached."
+msgstr "Ο στόχος εμφανίσεων για την τρέχουσα ώρα έχει επιτευχθεί."
+
+#: admin/views/metabox-limiter.php:75
+msgid "impressions or clicks"
+msgstr "εμφανίσεις ή κλικς"
+
+#: admin/views/metabox.php:119
+msgid "Save the ad to confirm the change"
+msgstr "Αποθηκεύστε τη διαφήμιση για να επιβεβαιώσετε την αλλαγή"
+
+#: admin/views/metabox.php:118
+msgid "Generate a new sharable link"
+msgstr "Δημιουργήστε έναν νέο σύνδεσμο με δυνατότητα κοινής χρήσης"
+
+#: admin/admin.php:1006
+msgid "enabled"
+msgstr "ενεργοποιημένη"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/tracking/"
+msgstr "https://wpadvancedads.com/add-ons/tracking/"
+
+#. Description of the plugin
+msgid "Track ad impressions and clicks."
+msgstr "Παρακολουθήστε τις εμφανίσεις και τα κλικ των διαφημίσεων."
+
+#. Name of the plugin
+msgid "Advanced Ads – Tracking"
+msgstr "Advanced Ads – Tracking"
+
+#: public/views/ad-stats.php:63
+msgid "Load"
+msgstr "Φορτώνει"
+
+#: public/views/ad-stats.php:52
+msgid "Statistics for %s"
+msgstr "Στατιστικά στοιχεία για %s"
+
+#: public/views/ad-stats.php:19
+msgid "Ad Statistics"
+msgstr "Στατιστικά διαφημίσεων"
+
+#: admin/views/stats.php:211
+msgid "Current filters"
+msgstr "Τρέχοντα φίλτρα"
+
+#: admin/views/stats.php:206
+msgid "Filter by group"
+msgstr "Φιλτράρισμα ανά ομάδα"
+
+#: admin/views/stats.php:196
+msgid "Filter by ad"
+msgstr "Φιλτράρισμα κατά διαφήμιση"
+
+#: admin/views/stats.php:180
+msgid "next period"
+msgstr "επόμενη περίοδο"
+
+#: admin/views/stats.php:178
+msgid "previous period"
+msgstr "προηγούμενη περίοδο"
+
+#: admin/views/stats.php:176
+msgid "Compare with"
+msgstr "Συγκρίνω με"
+
+#: admin/views/setting_advanced_db_mgmt.php:7
+msgid "Open database management"
+msgstr "Διαχείριση ανοιχτής βάσης δεδομένων"
+
+#: admin/views/stats.php:160
+msgid "select file"
+msgstr "επιλέξτε αρχείο"
+
+#: admin/views/stats.php:155
+msgid "File"
+msgstr "Αρχείο"
+
+#: admin/views/setting_method.php:30 admin/views/stats.php:153
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: admin/views/stats.php:129
+msgid "first month"
+msgstr "πρώτο μήνα"
+
+#: admin/views/stats.php:128
+msgid "latest month"
+msgstr "τελευταίο μήνα"
+
+#: admin/views/stats.php:121 admin/views/stats.php:137
+msgid "load stats"
+msgstr "στατιστικά φόρτωσης"
+
+#: admin/views/stats.php:103
+msgid "Data source:"
+msgstr "Πηγή δεδομένων:"
+
+#: admin/views/stats.php:98
+msgid "Group by:"
+msgstr "Ομάδα κατά:"
+
+#: admin/views/stats.php:97 public/views/ad-stats.php:56
+msgid "Period"
+msgstr "Περίοδος"
+
+#: admin/views/setting_uninstall.php:3
+msgid "Clean up all database entries related to tracking when removing the Tracking add-on."
+msgstr "Εκκαθαρίστε όλες τις καταχωρήσεις βάσης δεδομένων που σχετίζονται με την παρακολούθηση κατά την κατάργηση του πρόσθετου παρακολούθησης."
+
+#: admin/views/setting_tracking_bots.php:3
+msgid "Activate to also count impressions and clicks for crawlers, bots and empty user agents"
+msgstr "Ενεργοποιήστε για να μετράτε επίσης εμφανίσεις και κλικ για προγράμματα ανίχνευσης, bots και κενούς πράκτορες χρηστών"
+
+#: admin/views/setting_method.php:21
+msgid "Track impressions and clicks in Google Analytics."
+msgstr "Παρακολουθήστε τις εμφανίσεις και τα κλικ στο Google Analytics."
+
+#: admin/views/setting_ga.php:8
+msgid "Your Tracking ID"
+msgstr "Το αναγνωριστικό παρακολούθησης"
+
+#: admin/views/setting_everything.php:7
+msgid "You can change this setting individually for each ad on the ad edit page."
+msgstr "Μπορείτε να αλλάξετε αυτήν τη ρύθμιση ξεχωριστά για κάθε διαφήμιση στη σελίδα επεξεργασίας διαφημίσεων."
+
+#: admin/views/setting_everything.php:3
+msgid "don’t track anything"
+msgstr "μην παρακολουθείς τίποτα"
+
+#: admin/views/setting_email_test_email.php:21
+msgid "Add and save a recipient before sending a test email."
+msgstr "Προσθέστε και αποθηκεύστε έναν παραλήπτη πριν στείλετε ένα δοκιμαστικό email."
+
+#. 1: cron job schedule (e.g. 'daily'), 2: current timezone
+#: admin/views/setting_email_test_email.php:17
+msgid "Email will be sent %1$s at 00:15 %2$s"
+msgstr "Το email θα σταλεί %1$s στις 00:15 %2$s"
+
+#: admin/views/setting_email_test_email.php:12
+msgid "Send a report immediately to the listed email addresses"
+msgstr "Στείλτε μια αναφορά αμέσως στις αναφερόμενες διευθύνσεις email"
+
+#: admin/views/setting_email_test_email.php:11
+msgid "send email"
+msgstr "να στείλετε e-mail"
+
+#: admin/views/setting_email_test_email.php:7
+msgid "first day of the month"
+msgstr "την πρώτη ημέρα του μήνα"
+
+#: admin/views/setting_email_test_email.php:5
+msgid "every Monday"
+msgstr "κάθε Δευτέρα"
+
+#: admin/views/setting_email_test_email.php:3
+msgid "every day"
+msgstr "κάθε μέρα"
+
+#: admin/views/metabox.php:170
+#: admin/views/setting_email_report_frequency.php:13
+msgid "How often to send email reports"
+msgstr "Πόσο συχνά να στέλνετε αναφορές μέσω email"
+
+#: admin/views/metabox.php:168
+#: admin/views/setting_email_report_frequency.php:11
+msgid "monthly"
+msgstr "μηνιαία"
+
+#: admin/views/metabox.php:167 admin/views/setting_email_report_frequency.php:7
+msgid "weekly"
+msgstr "εβδομαδιαία"
+
+#: admin/views/metabox.php:166 admin/views/setting_email_report_frequency.php:3
+msgid "daily"
+msgstr "καθημερινά"
+
+#: admin/views/metabox.php:165
+msgid "never"
+msgstr "ποτέ"
+
+#: admin/views/metabox.php:162
+msgid "report frequency"
+msgstr "συχνότητα αναφοράς"
+
+#: admin/views/metabox.php:152
+msgid "report period"
+msgstr "περίοδο αναφοράς"
+
+#: admin/views/metabox.php:149 admin/views/setting_email_report_recip.php:3
+msgid "Separate multiple emails with commas"
+msgstr "Διαχωρίστε πολλά μηνύματα ηλεκτρονικού ταχυδρομείου με κόμματα"
+
+#: admin/views/metabox.php:149
+msgid "Email address to send the performance report for this ad"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου για αποστολή της αναφοράς απόδοσης για αυτήν τη διαφήμιση"
+
+#: admin/views/metabox.php:140
+msgid "report recipient"
+msgstr "παραλήπτης αναφοράς"
+
+#. Ad has already expired.
+#: admin/views/metabox-limiter.php:159
+msgid "This ad expired already."
+msgstr "Αυτή η διαφήμιση έληξε ήδη."
+
+#. 1: "impressions and clicks", 2: the remaining time string 3: the current
+#. impression pace, 4: the current click pace
+#: admin/views/metabox-limiter.php:149
+msgid "The %1$s are spread equally through %2$s currently with a limit of %3$s impressions or %4$s clicks per hour."
+msgstr "Τα %1$s κατανέμονται εξίσου στο %2$s επί του παρόντος με όριο %3$s εμφανίσεων ή %4$s κλικ ανά ώρα."
+
+#. 1: "impressions" or "clicks", 2: the remaining time string 3: the current
+#. pace
+#: admin/views/metabox-limiter.php:141
+msgid "The %1$s are spread equally through %2$s currently with a limit of %3$d %1$s per hour."
+msgstr "Τα %1$s κατανέμονται εξίσου μέσω %2$s επί του παρόντος με όριο %3$d %1$s ανά ώρα."
+
+#: admin/views/metabox-limiter.php:125
+msgid "The clicks goal for the current hour has been reached."
+msgstr "Ο στόχος κλικ για την τρέχουσα ώρα έχει επιτευχθεί."
+
+#: admin/views/metabox-limiter.php:120 admin/views/metabox-limiter.php:126
+msgid "Impressions will resume in the next hour"
+msgstr "Οι εμφανίσεις θα συνεχιστούν την επόμενη ώρα"
+
+#: admin/views/metabox-limiter.php:55
+msgid "Set a limit if you want to expire the ad after a specific amount of impressions or clicks."
+msgstr "Ορίστε ένα όριο εάν θέλετε να λήξει η διαφήμιση μετά από συγκεκριμένο αριθμό εμφανίσεων ή κλικ."
+
+#: admin/views/metabox-limiter.php:26
+msgid "limit"
+msgstr "όριο"
+
+#: admin/views/metabox-limiter.php:15
+msgid "limits"
+msgstr "όρια"
+
+#: admin/views/metabox.php:130
+msgid "Will be used as ad name instead of the internal ad title"
+msgstr "Θα χρησιμοποιηθεί ως όνομα διαφήμισης αντί για τον εσωτερικό τίτλο της διαφήμισης"
+
+#: admin/views/metabox.php:126
+msgid "Public name"
+msgstr "Δημόσιο όνομα"
+
+#: admin/views/metabox.php:121
+msgid "The public report URL for this ad will be generated the next time it is saved."
+msgstr "Η διεύθυνση URL της δημόσιας αναφοράς για αυτήν τη διαφήμιση θα δημιουργηθεί την επόμενη φορά που θα αποθηκευτεί."
+
+#: admin/views/metabox.php:117
+msgid "Shareable Link"
+msgstr "Σύνδεσμος με δυνατότητα κοινής χρήσης"
+
+#: admin/views/metabox.php:115
+msgid "Dashboard"
+msgstr "Πίνακας Ελέγχου"
+
+#: admin/views/db-operations.php:286
+msgid "If you notice a shift between your own time and stats, please check if the highlighted time is your local time. If not, please check if your <a href=\"%s\">time zone</a> is set correctly."
+msgstr "Εάν παρατηρήσετε μια αλλαγή μεταξύ της ώρας και των στατιστικών σας, ελέγξτε αν η ώρα που επισημαίνεται είναι η τοπική σας ώρα. Εάν όχι, ελέγξτε εάν η <a href=\"%s\">ζώνη ώρας</a> σας έχει ρυθμιστεί σωστά."
+
+#: admin/views/db-operations.php:285
+msgid "Time setup"
+msgstr "Ρύθμιση ώρας"
+
+#: admin/views/db-operations.php:279
+msgctxt "current time format on stats page"
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H:i:s"
+
+#: admin/views/db-operations.php:150
+msgid "Use this form to remove the stats for one or all ads."
+msgstr "Χρησιμοποιήστε αυτήν τη φόρμα για να καταργήσετε τα στατιστικά στοιχεία για μία ή όλες τις διαφημίσεις."
+
+#: admin/views/db-operations.php:148
+msgid "reset"
+msgstr "επαναφορά"
+
+#: admin/views/db-operations.php:140 admin/views/db-operations.php:186
+#: admin/views/db-operations.php:227
+msgid "--all ads--"
+msgstr "--όλες οι διαφημίσεις--"
+
+#: admin/views/db-operations.php:138
+msgid "(please choose the ad)"
+msgstr "(παρακαλώ επιλέξτε τη διαφήμιση)"
+
+#: admin/views/db-operations.php:126
+msgid "Reset Stats"
+msgstr "Επαναφορά στατιστικών"
+
+#: admin/views/db-operations.php:121
+msgid "Remove old stats to reduce the size of the database."
+msgstr "Καταργήστε τα παλιά στατιστικά στοιχεία για να μειώσετε το μέγεθος της βάσης δεδομένων."
+
+#: admin/views/db-operations.php:119
+msgid "remove"
+msgstr "αφαίρεσε"
+
+#: admin/views/db-operations.php:116
+msgid "Remove old stats"
+msgstr "Καταργήστε τα παλιά στατιστικά"
+
+#: admin/views/db-operations.php:104
+msgid "Export stats as CSV so you can review them later by uploading the file."
+msgstr "Εξαγωγή στατιστικών στοιχείων ως CSV, ώστε να μπορείτε να τα ελέγξετε αργότερα, ανεβάζοντας το αρχείο."
+
+#: admin/views/db-operations.php:102
+msgid "download"
+msgstr "Κατεβάστε"
+
+#: admin/views/db-operations.php:98
+msgid "Export stats"
+msgstr "Εξαγωγή στατιστικών"
+
+#: admin/views/db-operations.php:70
+msgid "Always perform a backup of your stats tables before performing any of the operations on this page."
+msgstr "Πάντα να εκτελείτε αντίγραφο ασφαλείας των πινάκων στατιστικών στοιχείων σας πριν εκτελέσετε οποιαδήποτε από τις λειτουργίες αυτής της σελίδας."
+
+#: admin/views/db-operations.php:64
+msgid "Oldest record"
+msgstr "Το παλαιότερο ρεκόρ"
+
+#: admin/views/db-operations.php:63
+msgid "Data size ( in kilobytes )"
+msgstr "Μέγεθος δεδομένων (σε kilobyte)"
+
+#: admin/views/db-operations.php:62
+msgid "Row count"
+msgstr "Αριθμός σειρών"
+
+#: admin/views/db-operations.php:61
+msgid "Table"
+msgstr "Πίνακας"
+
+#. %s <code>rel="sponsored"</code>
+#: admin/views/ad_tracking_options.php:146
+msgid "Add %s to tracking links."
+msgstr "Προσθήκη %s σε συνδέσμους παρακολούθησης."
+
+#: admin/views/ad_tracking_options.php:108
+#: admin/views/ad_tracking_options.php:120
+#: admin/views/ad_tracking_options.php:140
+#: admin/views/ad_tracking_options.php:153
+msgid "no"
+msgstr "όχι"
+
+#: admin/views/ad_tracking_options.php:105
+#: admin/views/ad_tracking_options.php:136
+msgid "yes"
+msgstr "ναι"
+
+#: admin/admin.php:770 admin/views/ad_tracking_options.php:99
+msgid "Add “nofollow”"
+msgstr "Προσθήκη \"nofollow\""
+
+#: admin/views/ad_tracking_options.php:96
+msgid "Where to open the link (if present)."
+msgstr "Που να ανοίξετε τον σύνδεσμο (εάν υπάρχει)."
+
+#: admin/views/ad_tracking_options.php:94
+msgid "new window"
+msgstr "νέο παράθυρο"
+
+#: admin/views/ad_tracking_options.php:91
+msgid "same window"
+msgstr "ίδιο παράθυρο"
+
+#: admin/views/ad_tracking_options.php:85
+msgid "target window"
+msgstr "παράθυρο στόχου"
+
+#: admin/views/ad_tracking_options.php:14
+msgid "tracking"
+msgstr "παρακολούθηση"
+
+#: admin/views/ad-list-stats-column.php:51
+msgid "Statistics for the last 30 days"
+msgstr "Στατιστικά για τις τελευταίες 30 ημέρες"
+
+#: admin/views/ad-list-stats-column.php:43
+msgid "show"
+msgstr "προβολή"
+
+#: admin/views/ad-list-stats-column.php:38
+msgid "Target url"
+msgstr "Διεύθυνση URL προορισμού"
+
+#: public/public.php:1434
+msgid "Ad statistics for %s"
+msgstr "Στατιστικά στοιχεία διαφημίσεων για %s"
+
+#: classes/ajax.php:72
+msgid "unable to read file"
+msgstr "δεν είναι δυνατή η ανάγνωση του αρχείου"
+
+#: public/public.php:1496
+msgid "the last month"
+msgstr "τον προηγούμενο μήνα"
+
+#: public/public.php:1495 admin/views/metabox.php:155
+#: admin/views/setting_email_report_stats_period.php:2
+#: public/views/ad-stats.php:58
+msgid "last 30 days"
+msgstr "τις τελευταίες 30 ημέρες"
+
+#: classes/util.php:775
+msgid "View the live statistics"
+msgstr "Δείτε τα ζωντανά στατιστικά"
+
+#: classes/util.php:767 public/views/ad-stats.php:297
+msgid "Total"
+msgstr "Σύνολο"
+
+#: admin/admin.php:500 classes/util.php:726
+#: admin/views/ad-list-stats-column.php:32
+msgid "CTR"
+msgstr "CTR"
+
+#: classes/util.php:726
+msgid "click through rate"
+msgstr "αναλογία κλικ προς αριθμό εμφανίσεων"
+
+#: classes/util.php:716
+msgid "There is no data for the given period, yet."
+msgstr "Δεν υπάρχουν ακόμη στοιχεία για τη συγκεκριμένη περίοδο."
+
+#. %s is a period string.
+#: classes/util.php:710
+msgid "Ads statistics for %s"
+msgstr "Στατιστικά στοιχεία διαφημίσεων για %s"
+
+#. %1$s is the ad name; %2$s a period string.
+#: classes/util.php:707
+msgid "%1$s statistics for %2$s"
+msgstr "%1$s στατιστικά στοιχεία για %2$s"
+
+#: classes/util.php:611
+msgid " the last 12 months"
+msgstr "τους τελευταίους 12 μήνες"
+
+#: classes/util.php:610
+msgid " the last month"
+msgstr "τον προηγούμενο μήνα"
+
+#: classes/util.php:609
+msgid " the last 30 days"
+msgstr "τις τελευταίες 30 ημέρες"
+
+#: classes/db-operations.php:668 admin/views/stats.php:120
+msgid "to"
+msgstr "προς την"
+
+#: classes/db-operations.php:667 admin/views/stats.php:119
+msgid "from"
+msgstr "από"
+
+#: classes/db-operations.php:48 classes/db-operations.php:648
+#: public/public.php:1497 admin/views/metabox.php:157
+#: admin/views/setting_email_report_stats_period.php:4
+#: public/views/ad-stats.php:60
+msgid "last 12 months"
+msgstr "τελευταίους 12 μήνες"
+
+#: classes/db-operations.php:45 classes/db-operations.php:52
+msgid "first 6 months"
+msgstr "πρώτοι 6 μήνες"
+
+#: classes/db-operations.php:44 classes/db-operations.php:51
+msgid "everything before this year"
+msgstr "όλα πριν από φέτος"
+
+#: classes/ajax.php:621
+msgid "This base name collides with an existing blog post category"
+msgstr "Αυτό το όνομα βάσης συγκρούεται με μια υπάρχουσα κατηγορία αναρτήσεων ιστολογίου"
+
+#: classes/ajax.php:619
+msgid "This base name collides with an existing blog post tag"
+msgstr "Αυτό το όνομα βάσης συγκρούεται με μια υπάρχουσα ετικέτα ανάρτησης ιστολογίου"
+
+#: classes/ajax.php:617
+msgid "This base name collides with an existing link category"
+msgstr "Αυτό το όνομα βάσης συγκρούεται με μια υπάρχουσα κατηγορία συνδέσμων"
+
+#: classes/ajax.php:615
+msgid "This base name collides with an existing WordPress content (blog post, page or any public custom content)"
+msgstr "Αυτό το όνομα βάσης συγκρούεται με ένα υπάρχον περιεχόμενο WordPress (ανάρτηση ιστολογίου, σελίδα ή οποιοδήποτε δημόσιο προσαρμοσμένο περιεχόμενο)"
+
+#: classes/ajax.php:376 classes/ajax.php:544
+msgctxt "format for week group in stats table"
+msgid "from %b&nbsp;%#d"
+msgstr "από %b&nbsp;%#d"
+
+#. %d is the ad_id
+#: classes/db-operations.php:156
+msgid "Impressions and clicks for ad ID %d removed."
+msgstr "Καταργήθηκαν οι εμφανίσεις και τα κλικ για το αναγνωριστικό διαφήμισης %d."
+
+#: classes/db-operations.php:147
+msgid "No stats removed."
+msgstr "Δεν καταργήθηκαν στατιστικά στοιχεία."
+
+#: classes/db-operations.php:141
+msgid "All impressions and clicks removed."
+msgstr "Καταργήθηκαν όλες οι εμφανίσεις και τα κλικ."
+
+#: admin/admin.php:1204 classes/ajax.php:424
+msgctxt "date format on stats page"
+msgid "Y-m"
+msgstr "Y-m"
+
+#: admin/admin.php:1204 classes/ajax.php:424
+msgid "month"
+msgstr "μήνας"
+
+#: admin/admin.php:1203 classes/ajax.php:423
+msgid "week"
+msgstr "εβδομάδα"
+
+#: admin/admin.php:1202 admin/admin.php:1203 classes/ajax.php:422
+#: classes/ajax.php:423
+msgctxt "date format on stats page"
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: admin/admin.php:1202 classes/ajax.php:422
+msgid "day"
+msgstr "ημέρα"
+
+#: admin/admin.php:1197 classes/db-operations.php:664
+msgid "custom"
+msgstr "προσαρμογή"
+
+#: admin/admin.php:1195 classes/db-operations.php:49
+#: classes/db-operations.php:649
+msgid "last year"
+msgstr "πέρυσι"
+
+#: admin/admin.php:1194 classes/db-operations.php:50
+#: classes/db-operations.php:650
+msgid "this year"
+msgstr "Αυτή την χρονιά"
+
+#: admin/admin.php:1193 admin/views/metabox.php:156
+#: admin/views/setting_email_report_stats_period.php:3
+#: public/views/ad-stats.php:59
+msgid "last month"
+msgstr "τον προηγούμενο μήνα"
+
+#: admin/admin.php:1192
+msgid "this month"
+msgstr "αυτο το μηνα"
+
+#: admin/admin.php:1191
+msgid "last 7 days"
+msgstr "τις τελευταίες 7 ημέρες"
+
+#: admin/admin.php:1190
+msgid "yesterday"
+msgstr "εχθές"
+
+#: admin/admin.php:1189
+msgid "today"
+msgstr "σήμερα"
+
+#: admin/admin.php:1047
+msgid "Add <code>target=\"_blank\"</code> to the ad code in order to open it in a new window. E.g. <code>&lt;a href=\"%link%\" target=\"_blank\"&gt;</code>"
+msgstr "Προσθέστε <code>target=\"_blank\"</code> στον κώδικα διαφήμισης για να τον ανοίξετε σε νέο παράθυρο. Π.χ. <code>&lt;a href=\"%link%\" target=\"_blank\"&gt;</code>"
+
+#: admin/admin.php:1002 admin/views/setting_everything.php:5
+msgid "clicks only"
+msgstr "μόνο κλικς"
+
+#: admin/admin.php:1003 admin/views/setting_everything.php:4
+msgid "impressions only"
+msgstr "μόνο εμφανίσεις"
+
+#: admin/admin.php:1004 admin/views/setting_everything.php:2
+msgid "impressions & clicks"
+msgstr "εμφανίσεις & κλικς"
+
+#: admin/admin.php:998
+msgid "disabled"
+msgstr "απενεργοποιημένο"
+
+#: admin/admin.php:997 admin/views/ad_tracking_options.php:88
+#: admin/views/ad_tracking_options.php:102
+#: admin/views/ad_tracking_options.php:132
+msgid "default"
+msgstr "προεπιλογή"
+
+#: admin/admin.php:955 admin/admin.php:1742
+msgid "Ads Statistics"
+msgstr "Στατιστικά διαφημίσεων"
+
+#: admin/admin.php:898
+msgid "Send test email"
+msgstr "Στείλτε δοκιμαστικό email"
+
+#: admin/admin.php:888
+msgid "Email subject"
+msgstr "Θέμα email"
+
+#: admin/admin.php:878
+msgid "From address"
+msgstr "Από διεύθυνση"
+
+#: admin/admin.php:868
+msgid "From name"
+msgstr "Από όνομα"
+
+#: admin/admin.php:858
+msgid "Statistics period"
+msgstr "Στατιστική περίοδος"
+
+#: admin/admin.php:848
+msgid "Frequency"
+msgstr "Συχνότητα"
+
+#: admin/admin.php:838
+msgid "Recipients"
+msgstr "Παραλήπτες"
+
+#: admin/admin.php:829
+msgid "Delete data on uninstall"
+msgstr "Διαγραφή δεδομένων κατά την απεγκατάσταση"
+
+#: admin/admin.php:819
+msgid "Track bots"
+msgstr "Παρακολούθηση ρομπότ"
+
+#: admin/admin.php:806
+msgid "Link base for public reports"
+msgstr "Βάση συνδέσμων για δημόσιες αναφορές"
+
+#: admin/admin.php:797
+msgid "Click-link base"
+msgstr "Βάση κλικ-συνδέσμου"
+
+#: admin/admin.php:762
+msgid "What to track by default"
+msgstr "Τι να παρακολουθείτε από προεπιλογή"
+
+#: admin/admin.php:751 admin/views/setting_method.php:20
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/admin.php:742
+msgid "Choose tracking method"
+msgstr "Επιλέξτε μέθοδο παρακολούθησης"
+
+#: admin/admin.php:717
+msgid "Email Reports"
+msgstr "Αναφορές ηλεκτρονικού ταχυδρομείου"
+
+#: admin/admin.php:709 admin/admin.php:733 admin/admin.php:1783
+msgid "Tracking"
+msgstr "Παρακολούθηση"
+
+#: admin/admin.php:560
+msgid "Data were compressed but the tracking tables can not be optimized automatically. Please ask the server&#39;s admin on how to proceed."
+msgstr "Τα δεδομένα συμπιέστηκαν αλλά οι πίνακες παρακολούθησης δεν μπορούν να βελτιστοποιηθούν αυτόματα. Ρωτήστε τον διαχειριστή του διακομιστή για το πώς να προχωρήσετε."
+
+#: admin/admin.php:559
+msgid "The plugin was not able to perform some requests on the database"
+msgstr "Η προσθήκη δεν ήταν σε θέση να εκτελέσει ορισμένα αιτήματα στη βάση δεδομένων"
+
+#: admin/admin.php:558
+msgid "Are you sure you want to reset the stats for"
+msgstr "Είστε βέβαιοι ότι θέλετε να επαναφέρετε τα στατιστικά στοιχεία για"
+
+#: admin/admin.php:557
+msgid "Please choose an ad"
+msgstr "Επιλέξτε μια διαφήμιση"
+
+#: admin/admin.php:555
+msgid "The server failed to respond to your request."
+msgstr "Ο διακομιστής απέτυχε να απαντήσει στο αίτημά σας."
+
+#: admin/admin.php:541
+msgid "email not sent. Please check your server configuration"
+msgstr "email δεν στάλθηκε. Ελέγξτε τη διαμόρφωση του διακομιστή σας"
+
+#: admin/admin.php:540
+msgid "email sent"
+msgstr "το μήνυμα ηλεκτρονικού ταχυδρομείου εστάλη"
+
+#: admin/admin.php:539
+msgid "Link structure available."
+msgstr "Δομή συνδέσμων διαθέσιμη."
+
+#: admin/admin.php:538
+msgid "An unexpected error occurred. Link structure not available."
+msgstr "Προέκυψε ένα μη αναμενόμενο σφάλμα. Η δομή του συνδέσμου δεν είναι διαθέσιμη."
+
+#: admin/admin.php:537
+msgid "The server failed to respond to your request. Link structure not available."
+msgstr "Ο διακομιστής απέτυχε να απαντήσει στο αίτημά σας. Η δομή του συνδέσμου δεν είναι διαθέσιμη."
+
+#: admin/admin.php:520
+msgid "No stats found in file"
+msgstr "Δεν βρέθηκαν στατιστικά στοιχεία στο αρχείο"
+
+#: admin/admin.php:518
+msgid "stats from %1$s to %2$s"
+msgstr "στατιστικά από %1$s έως %2$s"
+
+#: admin/admin.php:517 admin/admin.php:556
+msgid "An unexpected error occurred."
+msgstr "Προέκυψε ένα μη αναμενόμενο σφάλμα."
+
+#: admin/admin.php:510
+msgid "group"
+msgstr "ομάδα"
+
+#: admin/admin.php:509 admin/views/stats.php:162
+msgid "no file selected"
+msgstr "κανένα επιλεγμένο αρχείο"
+
+#: admin/admin.php:508
+msgid "One or more invalid records have been found in the database"
+msgstr "Μία ή περισσότερες μη έγκυρες εγγραφές έχουν βρεθεί στη βάση δεδομένων"
+
+#: admin/admin.php:507
+msgid "Some fields are missing for the custom period"
+msgstr "Ορισμένα πεδία λείπουν για την προσαρμοσμένη περίοδο"
+
+#: admin/admin.php:506 admin/admin.php:519 admin/views/db-operations.php:105
+msgid "The period you have chosen is not consistent"
+msgstr "Η περίοδος που επιλέξατε δεν είναι συνεπής"
+
+#: admin/admin.php:505
+msgid "There is no record for this period :("
+msgstr "Δεν υπάρχει αρχείο για αυτήν την περίοδο :("
+
+#: admin/admin.php:504
+msgid "total"
+msgstr "σύνολο"
+
+#: admin/admin.php:503
+msgid "%1$s to %2$s"
+msgstr "%1$s έως %2$s"
+
+#: admin/admin.php:502 classes/util.php:722 public/views/ad-stats.php:248
+msgid "date"
+msgstr "ημερομηνία"
+
+#: admin/admin.php:501
+msgid "deleted ads"
+msgstr "διαγραμμένες διαφημίσεις"
+
+#: public/views/ad-stats.php:251
+msgid "ctr"
+msgstr "ctr"
+
+#: admin/admin.php:499
+msgid "ad"
+msgstr "διαφήμιση"
+
+#: admin/admin.php:498
+msgid "There is no data for %1$s to %2$s"
+msgstr "Δεν υπάρχουν δεδομένα για %1$s έως %2$s"
+
+#: admin/admin.php:497
+msgid "impressions from %1$s to %2$s"
+msgstr "εμφανίσεις από %1$s έως %2$s"
+
+#: admin/admin.php:496
+msgid "clicks from %1$s to %2$s"
+msgstr "κλικς από %1$s έως %2$s"
+
+#: admin/admin.php:495 admin/admin.php:522
+msgid "next %d days"
+msgstr "επόμενες %d ημέρες"
+
+#: admin/admin.php:494 admin/admin.php:521
+msgid "previous %d days"
+msgstr "προηγούμενες %d ημέρες"
+
+#: admin/admin.php:493
+msgid "next year"
+msgstr "επόμενος χρόνος"
+
+#: admin/admin.php:492
+msgid "previous year"
+msgstr "προηγούμενος χρόνος"
+
+#: admin/admin.php:491 admin/admin.php:524
+msgid "next month"
+msgstr "επόμενος μήνας"
+
+#: admin/admin.php:490 admin/admin.php:523
+msgid "previous month"
+msgstr "προηγούμενος μήνας"
+
+#: admin/admin.php:489
+msgid "next day"
+msgstr "επόμενη ημέρα"
+
+#: admin/admin.php:488
+msgid "previous day"
+msgstr "προηγούμενη ημέρα"
+
+#: admin/admin.php:487 classes/amp.php:104 public/public.php:862
+#: admin/views/ad-list-stats-column.php:24
+msgid "Impressions"
+msgstr "Εμφανίσεις"
+
+#: admin/admin.php:486
+msgid "impressions for \"%s\""
+msgstr "εμφανίσεις για \"%s\""
+
+#: admin/admin.php:484 public/public.php:863
+#: admin/views/ad-list-stats-column.php:29
+msgid "Clicks"
+msgstr "Κλικς"
+
+#: admin/admin.php:483
+msgid "clicks for \"%s\""
+msgstr "κλικς για \"%s\""
+
+#: admin/admin.php:475
+msgid "invalid file type"
+msgstr "Μη έγκυρος τύπος αρχείου"
+
+#: admin/admin.php:473
+msgid "Select file"
+msgstr "Επιλέξτε αρχείο"
+
+#: admin/admin.php:445 admin/admin.php:482 classes/util.php:724
+#: admin/views/db-operations.php:82 admin/views/metabox-limiter.php:42
+#: admin/views/metabox-limiter.php:72 admin/views/stats.php:229
+#: public/views/ad-stats.php:184 public/views/ad-stats.php:222
+#: public/views/ad-stats.php:228 public/views/ad-stats.php:242
+#: public/views/ad-stats.php:250
+msgid "clicks"
+msgstr "κλικς"
+
+#: admin/admin.php:444 admin/admin.php:485 classes/util.php:723
+#: admin/views/db-operations.php:76 admin/views/metabox-limiter.php:31
+#: admin/views/metabox-limiter.php:67 admin/views/stats.php:224
+#: public/views/ad-stats.php:178 public/views/ad-stats.php:212
+#: public/views/ad-stats.php:217 public/views/ad-stats.php:238
+#: public/views/ad-stats.php:249
+msgid "impressions"
+msgstr "εμφανίσεις"
+
+#: admin/admin.php:293 admin/admin.php:578 admin/admin.php:1131
+#: admin/admin.php:1132
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: admin/admin.php:204
+msgid ": activate to sort column descending"
+msgstr ": ενεργοποίηση για φθίνουσα ταξινόμηση της στήλης"
+
+#: admin/admin.php:203
+msgid ": activate to sort column ascending"
+msgstr ": ενεργοποίηση για αύξουσα ταξινόμηση στηλών"
+
+#: admin/admin.php:200
+msgid "last"
+msgstr "τελευταίο"
+
+#: admin/admin.php:199
+msgid "next"
+msgstr "επόμενο"
+
+#: admin/admin.php:198
+msgid "previous"
+msgstr "προηγούμενο"
+
+#: admin/admin.php:197
+msgid "first"
+msgstr "πρώτα"
+
+#: admin/admin.php:195
+msgid "no data available in table"
+msgstr "δεν υπάρχουν διαθέσιμα δεδομένα στο τραπέζι"
+
+#: admin/admin.php:194
+msgid "no matching records found"
+msgstr "δεν βρέθηκαν αντίστοιχες εγγραφές"
+
+#: admin/admin.php:193
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: admin/admin.php:191
+msgid "filtered from _MAX_ total entries"
+msgstr "φιλτραρίστηκε από _MAX_ συνολικές καταχωρήσεις"
+
+#: admin/admin.php:190
+msgid "no element to show"
+msgstr "κανένα στοιχείο για εμφάνιση"
+
+#: admin/admin.php:189
+msgid "showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "εμφάνιση _START_ έως _END_ από _TOTAL_ καταχωρήσεις"
+
+#: admin/admin.php:188
+msgid "show _MENU_ entries"
+msgstr "εμφάνιση εγγραφών _MENU_"
+
+#: admin/admin.php:187
+msgid "search:"
+msgstr "αναζήτηση:"
+
+#: admin/admin.php:186
+msgid "processing..."
+msgstr "επεξεργασία..."
+
+#: admin/admin.php:1140
+msgid "Tracking database"
+msgstr "Βάση δεδομένων παρακολούθησης"
