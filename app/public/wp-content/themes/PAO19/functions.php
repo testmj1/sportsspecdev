@@ -1851,3 +1851,5 @@ function set_default_page_template($post_ID, $post, $update) {
     }
 }
 add_action('wp_insert_post', 'set_default_page_template', 10, 3);
+
+// added
